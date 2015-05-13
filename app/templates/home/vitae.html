@@ -1,0 +1,112 @@
+{% extends "basic.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Empirical Dashboard{% endblock %}
+
+{% block head %}
+{{super()}}
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<div class="page-header">
+  <h1>Portfolio <small>Curriculum Vitae, Publications, and Conferences</small></h1>
+</div>
+
+<!-- Nav tabs -->
+<ul class="nav nav-pills nav-justified">
+  <li class="active"><a href="#cv" data-toggle="tab">Curriculum Vitae</a></li>
+  <li><a href="#publications" data-toggle="tab">Publications</a></li>
+  <li><a href="#conferences" data-toggle="tab">Conferences</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+
+  <div class="tab-pane fade in active" id="cv"> <br>
+{% for key,item in cv.items() %}
+
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">{{ key }}</h3>
+      </div>
+      <div class="panel-body"> 
+      {% for entry in item %}
+        <p> {{ entry }} </p>
+      {% endfor %}       
+        </div>
+    </div>
+
+{% endfor %}
+    </div>
+
+  <div class="tab-pane fade" id="publications"> <br>
+<div class="row">
+
+{% for pub in publications %}
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail"> <img src={{ "static/images/" + pub.image }} alt="...">
+<div class="caption">
+<h3> {{ pub.title }} </h3>
+<h6> {{ pub.authors }} </h6>
+<p> {{ pub.abstract }} </p>
+<p><a href={{ pub.link }} class="btn btn-primary" role="button">Link</a> <a href={{ pub.arxiv }}  class="btn btn-default" role="button">Arxiv</a></p>
+</div>
+<div class="panel-footer"> {{ pub.date }} </div>
+</div>
+</div>
+     
+{% endfor %}
+
+</div>
+  </div>
+
+  <div class="tab-pane fade" id="conferences"> <br>
+<div class="row">
+
+{% for conf in conferences %}
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail"> <img src={{ "static/images/" + conf.image}} alt="...">
+<div class="caption">
+<h3>{{conf.title}}</h3>
+<h6> {{conf.location}}</h6>
+<p> {{conf.abstract}} </p>
+<p><a href={{conf.link}} class="btn btn-primary" role="button">Link</a></p>
+</div>
+<div class="panel-footer"> {{conf.date}} </div>
+</div>
+</div>
+
+{% endfor %}
+
+</div>
+  </div>
+
+
+
+
+
+</div>
+
+{% block footer %}
+{{super()}}
+{% endblock %}
+
+{% endblock %}

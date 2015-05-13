@@ -1,0 +1,56 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+{{super()}}
+<link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand">Andrew Mellor</a> </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/home/vitae">Vitae</a></li>
+        <li><a href="/home/research">Research</a></li>
+        <li><a href="/">Blog</a></li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/about/"> Project 1 </a></li>
+            <li><a href="/about/cv"> Project 1 </a></li>
+            <li><a href="/about/conferences"> Project 1  </a></li>
+            <li><a href="/about/publications"> Project 1  </a></li>
+        </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="mailto:mmasm@leeds.ac.uk"> <span class="glyphicon glyphicon-envelope"></span> Email </a></li>
+            <li><a href="https://github.com/Andy1080"> <span class="glyphicon glyphicon-book"></span> Github </a></li>
+            <li><a href="http://homepages.see.leeds.ac.uk/~mmasm/"> <span class="glyphicon glyphicon-globe"></span> Website </a></li>
+            <li><a href="https://twitter.com/EmpiricalSOM"> <span class="glyphicon glyphicon-map-marker"></span> Twitter </a></li>
+            <li><a href="https://www.linkedin.com/pub/andrew-mellor/49/74b/842"> <span class="glyphicon glyphicon-link"></span> LinkedIn </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>    
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+{{super()}}
+{% endblock %}
+
+{% block footer %}
+<div id="footer">
+  <div class="container">
+    <p class="navbar-text">Copyright (c) 2015 Andrew Mellor</p>
+  </div>
+</div>
+{% endblock %}
+
