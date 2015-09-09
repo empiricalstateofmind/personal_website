@@ -38,30 +38,81 @@
 <div class="tab-content">
 
   <div class="tab-pane fade in active" id="cv"> <br>
-{% for key,item in cv.items() %}
-
-
     <div class="panel panel-primary">
       <div class="panel-heading">
-        <h3 class="panel-title">{{ key }}</h3>
+        <h3 class="panel-title">Education</h3>
       </div>
       <div class="panel-body"> 
-      {% for entry in item %}
-        <p> {{ entry }} </p>
-      {% endfor %}       
+    
+      {% for entry in cv.education %}
+        <strong><p> {{ entry.school }}  ({{ entry.date }} )</p></strong>
+      {% for inf in entry.info %}
+        <p> {{ inf }} </p>
+      {% endfor %}
+        </br>
+      {% endfor %}   
+    
         </div>
     </div>
 
-{% endfor %}
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Work</h3>
+      </div>
+      <div class="panel-body"> 
+      
+        {% for entry in cv.work %}
+        <strong><p> {{ entry.job }}  ({{ entry.date }} )</p></strong>
+      {% for inf in entry.info %}
+        <p> {{ inf }} </p>
+      {% endfor %}
+        </br>
+      {% endfor %}   
+
+       
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Technology</h3>
+      </div>
+      <div class="panel-body"> 
+      {% for entry in cv.tech %}
+     <strong><p> {{ entry.skill }} </p></strong>
+      {% for inf in entry.info %}
+        <p> {{ inf }} </p>
+      {% endfor %}
+        </br>
+      {% endfor %}        
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Extra Curricular</h3>
+      </div>
+      <div class="panel-body"> 
+      {% for entry in cv.extra %}
+     <strong><p> {{ entry.item }} </p></strong>
+      {% for inf in entry.info %}
+        <p> {{ inf }} </p>
+      {% endfor %}
+        </br>
+      {% endfor %}    
+        </div>
+    </div>
+
+
+
     </div>
 
   <div class="tab-pane fade" id="publications"> <br>
 <div class="row">
-
 {% for pub in publications %}
 
 <div class="col-sm-6 col-md-4">
-<div class="thumbnail"> <img src={{ "static/images/" + pub.image }} alt="...">
+<div class="thumbnail"> <img src={{ 'static/images/' + pub.image }} alt="...">
 <div class="caption">
 <h3> {{ pub.title }} </h3>
 <h6> {{ pub.authors }} </h6>
@@ -73,13 +124,11 @@
 </div>
      
 {% endfor %}
-
 </div>
   </div>
 
   <div class="tab-pane fade" id="conferences"> <br>
 <div class="row">
-
 {% for conf in conferences %}
 
 <div class="col-sm-6 col-md-4">
@@ -93,9 +142,7 @@
 <div class="panel-footer"> {{conf.date}} </div>
 </div>
 </div>
-
 {% endfor %}
-
 </div>
   </div>
 
