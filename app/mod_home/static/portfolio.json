@@ -1,9 +1,9 @@
 {
     "publications": [
         {
-            "title": "Role of Luddism in Innovation Diffusion",
+            "title": "Influence of Luddism on innovation diffusion",
             "authors": "Andrew Mellor, Mauro Mobilia, S. Redner, Alastair M. Rucklidge, Jonathan A. Ward",
-            "date": "11th May 2015",
+            "date": "10th July 2015",
             "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.",
             "image": "network.png",
             "journal": "Physical Review E", 
@@ -13,44 +13,50 @@
     ],
     "conferences": [
         {
-            "title": "CabDyn",
+            "title": "Fluctuation driven phenomena in non-equilibrium statistical mechanics synposium",
+            "location": "University of Warwick, UK",
+            "date": "21st - 25th September 2015",
+            "contribution": "Attendee",
+            "abstract": "This workshop explored topics such as recent advances in the extension of the formalism of large deviation theory to describe non-equilibrium fluctuations, anomalous scaling in reaction diffusion systems and stochastic aggregation and nonequilibrium phase transitions such as gelation and out-of-equilibrium condensation. It also included work on systems where rigorous mathematical progress is being made such as in understanding condensation in interacting particle systems for which exact stationary stationary measures are known and the use of fluctuation theorems to characterise non-equilibrium fluctuations.",
+            "image": "network.png",
+            "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2015-16/symposium/flp/"
+        },
+        {
+            "title": "CabDyn Journal Club",
             "location": "University of Oxford, UK",
-            "date": "August 2015",
+            "date": "20th August 2015",
             "contribution": "Invited Speaker: The Role of Luddism on Innovation Diffusion",
             "abstract": "",
-            "image": "#",
-            "link": "#",
-            "resources":"Hello"
+            "image": "cabdynlogo.png",
+            "link": "http://www.cabdyn.ox.ac.uk/complexity_journalclub.asp"
         },
-
-
         {
             "title": "Young Researchers In Mathematics Conference",
             "location": "University of Oxford, UK",
-            "date": "August 2015",
+            "date": "17th - 20th August 2015",
             "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
             "abstract": "",
-            "image": "#",
-            "link": "#"
+            "image": "network.png",
+            "link": "http://www.yrm2015.co.uk/"
         },
 
         {
-            "title": "Workshop on Evolving Networks",
+            "title": "Collective Dynamics & Evolving Networks Workshop",
             "location": "University of Bath, UK",
-            "date": "July 2015",
+            "date": "6th - 8th July 2015",
             "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
-            "abstract": "",
-            "image": "#",
-            "link": "#"
+            "abstract": "A three-day workshop at the University of Bath on the analysis of models of collective dynamics and evolutionary networks, and their use across physical, social, financial and biological applications.",
+            "image": "collectivedynamics.png",
+            "link": "http://people.bath.ac.uk/ma3tcr/cden/"
         },
         {
             "title": "Complexity Science Summer School",
             "location": "University of Warwick, UK",
-            "date": "June 2015",
+            "date": "9th - 12th June 2015",
             "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
-            "abstract": "",
-            "image": "#",
-            "link": "#"
+            "abstract": "This year's Warwick Graduate Summer School in Complexity Science will provide graduate students and researchers in the mathematical sciences with an introduction to modern theoretical and computational tools for tackling the challenges posed by such modeling and optimsation problems.",
+            "image": "network.png",
+            "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2014-15/nonsymposium/csss/"
         },
 	    {
             "title": "KTN Alan Tayler Day",
@@ -66,7 +72,7 @@
             "location": "Lucca, Italy",
             "date": "22nd - 26th September 2014",
             "contribution": "Poster Presentation:",
-            "abstract": "Major international conference and event in the area of complex systems and interdisciplinary science in general",
+            "abstract": "Major international conference and event in the area of complex systems and interdisciplinary science in general.",
             "image": "eccs14.jpg",
             "link": "http://www.eccs14.eu/index.php"
         },
