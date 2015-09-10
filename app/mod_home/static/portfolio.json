@@ -6,16 +6,58 @@
             "date": "11th May 2015",
             "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.",
             "image": "network.png",
-            "link": "#",
+            "journal": "Physical Review E", 
+            "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012806",
             "arxiv": "http://arxiv.org/abs/1505.02020"
         }
     ],
     "conferences": [
+        {
+            "title": "CabDyn",
+            "location": "University of Oxford, UK",
+            "date": "August 2015",
+            "contribution": "Invited Speaker: The Role of Luddism on Innovation Diffusion",
+            "abstract": "",
+            "image": "#",
+            "link": "#",
+            "resources":"Hello"
+        },
+
+
+        {
+            "title": "Young Researchers In Mathematics Conference",
+            "location": "University of Oxford, UK",
+            "date": "August 2015",
+            "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
+            "abstract": "",
+            "image": "#",
+            "link": "#"
+        },
+
+        {
+            "title": "Workshop on Evolving Networks",
+            "location": "University of Bath, UK",
+            "date": "July 2015",
+            "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
+            "abstract": "",
+            "image": "#",
+            "link": "#"
+        },
+        {
+            "title": "Complexity Science Summer School",
+            "location": "University of Warwick, UK",
+            "date": "June 2015",
+            "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
+            "abstract": "",
+            "image": "#",
+            "link": "#"
+        },
 	    {
             "title": "KTN Alan Tayler Day",
             "location": "Oxford, UK",
             "date": "19th November 2014",
-            "abstract": "Poster Presentation: ",
+            "contribution": "Poster Presentation: ",
+            "abstract": "",
             "image": "ktn.png",
             "link": "http://www.eccs14.eu/index.php"
         },
@@ -23,6 +65,7 @@
             "title": "European Conference of Complex Systems",
             "location": "Lucca, Italy",
             "date": "22nd - 26th September 2014",
+            "contribution": "Poster Presentation:",
             "abstract": "Major international conference and event in the area of complex systems and interdisciplinary science in general",
             "image": "eccs14.jpg",
             "link": "http://www.eccs14.eu/index.php"
@@ -31,6 +74,7 @@
             "title": "Complex Networks Thematic School",
             "location": "Les Houches, France",
             "date": "7th - 18th April 2014",
+            "contribution": "Attendee",
             "abstract": "The school aims at giving a solid fundamental background to Master and PhD students and young researchers working with or on complex networks, by introducing the main concepts and tools that are useful in this field. The school will introduce the concepts and tools of graph theory, statistical physics, statistical analysis, modeling, and visualization used in the field of complex networks.",
             "image": "leshouches.jpg",
             "link": "http://leshouches2014.weebly.com/"
@@ -39,6 +83,7 @@
             "title": "Big Data and Social Media Workshop",
             "location": "Edinburgh, UK",
             "date": "28th November 2013",
+            "contribution": "Attendee",
             "abstract": "The event brings together people in commerce, government and academia, covering technical issues (data, collection, algorithms, high performance computing) and implications for marketing, healthcare, social sciences and the study of human interaction (questions of interest, limitations, pitfalls). ",
             "image": "edinburgh.jpg",
             "link": "http://icms.org.uk/workshops/bigdata2"
