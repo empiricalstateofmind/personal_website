@@ -39,9 +39,9 @@ def vitae():
     return render_template('/home/vitae.html', publications=publications, conferences=conferences,
                            cv=cv)    
     
-#@mod_home.route('/research')
-#def research():
-#    return render_template('/home/research.html')   
+@mod_home.route('/research')
+def research():
+    return render_template('/home/research.html')   
     
 @mod_home.route('/test/')
 def test():
