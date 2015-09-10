@@ -145,11 +145,20 @@
 </div>
 </div>
 <div class="col-sm-15 col-md-10">
-<h3>{{conf.title}}</h3>
-<p><i>{{conf.date}} </i></p>
-<h6> {{conf.location}}</h6>
+<h3>{{conf.title}}</h3> 
+<h6> {{conf.location}} (<i>{{conf.date}} </i>)</h6> 
+<h6><b> {{conf.contribution}} </b></h6>
 <p> {{conf.abstract}} </p>
-<p><a href={{conf.link}} class="btn btn-primary" role="button">Link</a></p>
+<p>
+
+{% if conf.resources is defined %}
+<a href={{conf.link}} class="btn btn-primary" role="button">Link</a>
+{% endif %}
+
+{% if conf.resources is defined %}
+<a href={{conf.resources}} class="btn btn-primary" role="button">Resources</a>
+{% endif %}
+</p>
 </div>
 </div>
 </div>
