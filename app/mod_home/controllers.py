@@ -3,14 +3,13 @@ from flask import Blueprint, request, render_template, \
                   stream_with_context
 import json
 
-# Define the Blueprint
 mod_home = Blueprint('home', __name__, static_folder='static')
 
 @mod_home.route('/')
 def index():
     return render_template('/home/index.html')
 
-@mod_home.route('/vitae/')
+@mod_home.route('vitae/')
 def vitae():
     with mod_home.open_resource('static/portfolio.json') as w:
          data = json.load(w)
@@ -22,7 +21,7 @@ def vitae():
     return render_template('/home/vitae.html', publications=publications, conferences=conferences,
                            cv=cv)    
     
-@mod_home.route('/research/')
+@mod_home.route('research/')
 def research():
     return render_template('/home/research.html')   
     

@@ -35,7 +35,7 @@ def site_map():
 from app.mod_home.controllers import mod_home as home_module
 
 # Register blueprint(s)
-app.register_blueprint(home_module, url_prefix='/home')
+app.register_blueprint(home_module, url_prefix='/')
 
 # Build the database:
 # This will create the database file using SQLAlchemy
