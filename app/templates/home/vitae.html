@@ -20,9 +20,7 @@
 {% endblock %}
 
 {% block content %}
-
 <div class="container">
-
 <div class="page-header">
   <h1>Portfolio <small>Curriculum Vitae, Publications, and Conferences</small></h1>
 </div>
@@ -113,7 +111,7 @@
 <div class="well well-sm">
 <div class="row">
 <div class="col-sm-4 col-md-3">
-<div class="thumbnail"> <img src={{ url_for('static',filename=pub.image)}} alt="Publication Image">
+<div class="thumbnail"> <img src={{ url_for('home.static',filename=pub.image)}} alt="Publication Image">
 <div class="caption">
 </div>
 <div class="panel-footer"> {{ pub.date }} </div>
@@ -137,9 +135,9 @@
 <div class="tab-pane fade" id="conferences"> <br>
 {% for conf in conferences %}
 <div class="well well-sm">
-<div class="row" >
-<div class="col-sm-3 col-md-2 vcenter">
-<div class="thumbnail"> <img src={{ url_for('static',filename=conf.image) }} alt="Conference Photo">
+<div class="row">
+<div class="col-sm-3 col-md-2">
+<div class="thumbnail"> <img src={{ url_for('home.static',filename=conf.image) }} alt="Conference Photo">
 
 </div>
 </div>
