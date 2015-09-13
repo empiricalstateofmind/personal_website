@@ -25,7 +25,7 @@ def vitae():
 def research():
     return render_template('/home/research.html')   
     
-@mod_home.route('/test/')
+@mod_home.route('test/')
 def test():
     return "Test working"   
     
