@@ -1,0 +1,234 @@
+{
+    "publications": [
+        {
+            "title": "Influence of Luddism on innovation diffusion",
+            "authors": "Andrew Mellor, Mauro Mobilia, S. Redner, Alastair M. Rucklidge, Jonathan A. Ward",
+            "date": "10th July 2015",
+            "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.",
+            "image": "network.png",
+            "journal": "Physical Review E", 
+            "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012806",
+            "arxiv": "http://arxiv.org/abs/1505.02020"
+        }
+    ],
+    "conferences": [
+        {
+            "title": "Fluctuation driven phenomena in non-equilibrium statistical mechanics synposium",
+            "location": "University of Warwick, UK",
+            "date": "21st - 25th September 2015",
+            "contribution": "Attendee",
+            "abstract": "This workshop explored topics such as recent advances in the extension of the formalism of large deviation theory to describe non-equilibrium fluctuations, anomalous scaling in reaction diffusion systems and stochastic aggregation and nonequilibrium phase transitions such as gelation and out-of-equilibrium condensation. It also included work on systems where rigorous mathematical progress is being made such as in understanding condensation in interacting particle systems for which exact stationary stationary measures are known and the use of fluctuation theorems to characterise non-equilibrium fluctuations.",
+            "image": "network.png",
+            "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2015-16/symposium/flp/"
+        },
+        {
+            "title": "CabDyn Journal Club",
+            "location": "University of Oxford, UK",
+            "date": "20th August 2015",
+            "contribution": "Invited Speaker: The Role of Luddism on Innovation Diffusion",
+            "abstract": "",
+            "image": "cabdynlogo.png",
+            "link": "http://www.cabdyn.ox.ac.uk/complexity_journalclub.asp"
+        },
+        {
+            "title": "Young Researchers In Mathematics Conference",
+            "location": "University of Oxford, UK",
+            "date": "17th - 20th August 2015",
+            "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
+            "abstract": "",
+            "image": "network.png",
+            "link": "http://www.yrm2015.co.uk/"
+        },
+
+        {
+            "title": "Collective Dynamics & Evolving Networks Workshop",
+            "location": "University of Bath, UK",
+            "date": "6th - 8th July 2015",
+            "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
+            "abstract": "A three-day workshop at the University of Bath on the analysis of models of collective dynamics and evolutionary networks, and their use across physical, social, financial and biological applications.",
+            "image": "collectivedynamics.png",
+            "link": "http://people.bath.ac.uk/ma3tcr/cden/"
+        },
+        {
+            "title": "Complexity Science Summer School",
+            "location": "University of Warwick, UK",
+            "date": "9th - 12th June 2015",
+            "contribution": "Presentation: The Role of Luddism on Innovation Diffusion",
+            "abstract": "This year's Warwick Graduate Summer School in Complexity Science will provide graduate students and researchers in the mathematical sciences with an introduction to modern theoretical and computational tools for tackling the challenges posed by such modeling and optimsation problems.",
+            "image": "network.png",
+            "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2014-15/nonsymposium/csss/"
+        },
+	    {
+            "title": "KTN Alan Tayler Day",
+            "location": "Oxford, UK",
+            "date": "19th November 2014",
+            "contribution": "Poster Presentation: ",
+            "abstract": "",
+            "image": "ktn.png",
+            "link": "http://www.eccs14.eu/index.php"
+        },
+        {
+            "title": "European Conference of Complex Systems",
+            "location": "Lucca, Italy",
+            "date": "22nd - 26th September 2014",
+            "contribution": "Poster Presentation:",
+            "abstract": "Major international conference and event in the area of complex systems and interdisciplinary science in general.",
+            "image": "eccs14.jpg",
+            "link": "http://www.eccs14.eu/index.php"
+        },
+        {
+            "title": "Complex Networks Thematic School",
+            "location": "Les Houches, France",
+            "date": "7th - 18th April 2014",
+            "contribution": "Attendee",
+            "abstract": "The school aims at giving a solid fundamental background to Master and PhD students and young researchers working with or on complex networks, by introducing the main concepts and tools that are useful in this field. The school will introduce the concepts and tools of graph theory, statistical physics, statistical analysis, modeling, and visualization used in the field of complex networks.",
+            "image": "leshouches.jpg",
+            "link": "http://leshouches2014.weebly.com/"
+        },
+        {
+            "title": "Big Data and Social Media Workshop",
+            "location": "Edinburgh, UK",
+            "date": "28th November 2013",
+            "contribution": "Attendee",
+            "abstract": "The event brings together people in commerce, government and academia, covering technical issues (data, collection, algorithms, high performance computing) and implications for marketing, healthcare, social sciences and the study of human interaction (questions of interest, limitations, pitfalls). ",
+            "image": "edinburgh.jpg",
+            "link": "http://icms.org.uk/workshops/bigdata2"
+        }
+    ],
+    "other": [
+        {
+            "title": "Other Example 1",
+            "subheading": "Subheading 1",
+            "date": "1st September 2014",
+            "abstract": "Here is an abstract",
+            "image": "network300x300.png",
+            "link": "www.google.com"
+        },
+        {
+            "title": "Other Example 2",
+            "subheading": "Subheading 2",
+            "date": "20th May 2014",
+            "abstract": "Here is an abstract",
+            "image": "network300x300.png",
+            "link": "www.google.com"
+        }
+    ],
+    "cv": {
+        "education": [
+            {
+                "school": "University of Leeds",
+                "date": "2013-Present",
+                "info": [
+                    "PhD Candidate"
+                ]
+            },
+            {
+                "school": "Trinity College, University of Oxford",
+                "date": "2009-2013",
+                "info": [
+                    "MMath Mathematics 2.1/2.1"
+                ]
+            },
+            {
+                "school": "Greenhead College, Huddersfield",
+                "date": "2007-2009",
+                "info": [
+                    "A Levels: Mathematics A, Further Mathematics A, Physics A, Chemistry A",
+                    "Awards: Owen Prize for Mathematics"
+                ]
+            },
+            {
+                "school": "King James School, Huddersfield ",
+                "date": "2002-2007",
+                "info": [
+                    "GSCES: 8 A*, 4 A, 1 B (including A* Mathematics, A* English)",
+                    "Additional Mathematics (FSMQ) A",
+                    "Awards: Highest Academic Achievement(2002-2007), Bill Chapman Cup for Mathematics (2005)"
+                ]
+            }
+        ],
+        "work": [
+            {
+                "job": "Winton Capital Management",
+                "date": "01/07/13–30/09/13",
+                "info": [
+                    "Used Python and SQL to analyse financial market data.",
+                    "Constructed tests to highlight possible ‘bad’ data and cleaned it appropriately.",
+                    "Took on extra responsibility after mentor suddenly had to leave the team.",
+                    "Attended research workshops and seminars."
+                ]
+            },
+            {
+                "job": "Coutts",
+                "date": "25/06/12–31/08/12",
+                "info": [
+                    "Worked in the executive decision support team as part of a 10 week internship.",
+                    "Produced business reports for the executive/board members and streamlined the monthly processes of the team.",
+                    "Personally organised experience in the Investment Office and Private Banking roles."
+                ]
+            },
+            {
+                "job": "NUCIG Ltd",
+                "date": "04/07/11–23/09/11",
+                "info": [
+                    "Assisted in managing the small e-commerce business with a turnover of £500,000.",
+                    "Talked to clients, maintained website, and processed orders.",
+                    "Solely responsible for the running of the business over a 3 week period."
+                ]
+            }
+        ],
+        "tech": [
+            {
+                "skill": "Programming",
+                "info": [
+                    "Extensive use of Python for simulation and data analysis.",
+                    "Experience with Java/MATLAB.",
+                    "Knowledge of C++/Fortran.",
+                    "Experience with version control and collaborative projects."
+                ]
+            },
+            {
+                "skill": "Databases",
+                "info": [
+                    "Use of SQL Server/MySQL."
+                ]
+            },
+            {
+                "skill": "Web",
+                "info": [
+                    "Basic HTML/CSS/Javascript/PHP."
+                ]
+            }
+        ],
+        "extra": [
+            {
+                "item": "Treasurer of Trinity College Boat Club (2011-2012)",
+                "info": [
+                    "Budgeted and managed a cash flow of over £30,000. Negotiated with senior members of Trinity staff and sponsors and worked as part of the executive committee."
+                ]
+            },
+            {
+                "item": "Volunteering (Summer 2010)",
+                "info": [
+                    "Taught a number of subjects at a Maasai school (ages 11-20) in Tanzania for four weeks after raising over £3,500 for the school in the year prior."
+                ]
+            },
+            {
+                "item": "Duke of Edinburgh Gold Award (2010)",
+                "info": [
+                    "Volunteered for one year at a local Scout group.",
+                    "Led a team of seven on a four day expedition in the Lake District.",
+                    "Volunteered for one week at a summer camp for underprivileged children."
+                ]
+            },
+            {
+                "item": "Sport",
+                "info": [
+                    "Captained Trinity College Men’s 2nd VIII in 2011.",
+                    "Member of Leeds University Cycling Club.",
+                    "Beginner climber."
+                ]
+            }
+        ]
+    }
+}
