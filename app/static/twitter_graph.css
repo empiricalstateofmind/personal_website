@@ -1,0 +1,47 @@
+
+svg#network {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+  
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+marker#retweet {
+  fill: red;
+}
+
+path.link.retweet {
+  stroke: red;
+}
+
+marker#message {
+  fill: green;
+}
+
+path.link.message {
+  stroke: green;
+}
+
+marker#reply {
+  fill: blue;
+}
+
+path.link.reply {
+  stroke: blue;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}

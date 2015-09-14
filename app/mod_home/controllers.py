@@ -23,6 +23,9 @@ def vitae():
     
 @mod_home.route('research/')
 def research():
+    with mod_home.open_resource('static/research.json') as w:
+        data = json.load(w)
+    
     return render_template('/home/research.html')   
     
 @mod_home.route('test/')
