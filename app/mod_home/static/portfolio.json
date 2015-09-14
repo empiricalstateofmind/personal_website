@@ -5,7 +5,7 @@
             "authors": "Andrew Mellor, Mauro Mobilia, S. Redner, Alastair M. Rucklidge, Jonathan A. Ward",
             "date": "10th July 2015",
             "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.",
-            "image": "network.png",
+            "image": "luddites.png",
             "journal": "Physical Review E", 
             "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012806",
             "arxiv": "http://arxiv.org/abs/1505.02020"
