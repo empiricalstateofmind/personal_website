@@ -1,0 +1,48 @@
+{% extends "basic.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Andrew Mellor - Test{% endblock %}
+
+{% block head %}
+{{super()}}
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<div class="page-header">
+  <h1>Test <small>Testing</small></h1>
+</div>
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/1134670/latest-rides/1d0aaef326076898a6db6bbc492005f84ee4fb85'></iframe>
+        </div>
+
+        <div class="col-md-9">
+            <svg width="100%" height="100%"> </svg>
+        </div>
+
+    </div>
+
+</div>
+
+{% block footer %}
+{{super()}}
+{% endblock %}
+
+{% endblock %}
