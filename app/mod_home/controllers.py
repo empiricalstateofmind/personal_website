@@ -30,6 +30,6 @@ def research():
     
 @mod_home.route('test/')
 def test():
-    return "Test working"   
+    return render_template('/home/test.html')   
     
     
