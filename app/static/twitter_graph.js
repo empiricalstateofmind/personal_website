@@ -65,8 +65,6 @@ var force = d3.layout.force()
 	.start();
 
 var svg = d3.selectAll("svg")
-	.attr("width", width)
-	.attr("height", height)
 	.attr("id","network")
 	.append("g");
 
