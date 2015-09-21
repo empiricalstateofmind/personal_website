@@ -11,7 +11,9 @@
 {% block scripts %}
 {{super()}}
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src={{ url_for('static', filename='twitter_graph.js') }}></script>
+<script src={{ url_for('static', filename='blogloader.js') }}></script>
 {% endblock %}
 
 {% block styles %}
@@ -56,6 +58,17 @@
   <div class="col-sm-4 col-md-4">
   <svg id="network" preserveAspectRatio="none" viewBox="0 0 500 500"></svg>
   </div>
+
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+  <div class="well">
+  <h4>Latest Blog Posts</h4>
+  <div id="blog"></div>
+  </div>
+  </div>
+</div>
 
 </div>
 
