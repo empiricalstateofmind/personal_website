@@ -7,6 +7,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
 {% endblock %}
 
+{% block scripts %}
+{{super()}}
+{% include 'google_analytics.html' %}
+{% endblock %}
+
 {% block navbar %}
 <div class="navbar navbar-default" role="navigation">
   <div class="container">
