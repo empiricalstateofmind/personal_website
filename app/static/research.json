@@ -1,1 +1,12 @@
-{}
+{
+    "topics": [
+        {
+            "name": "Temporal Networks",
+            "points": ["Interesting fact 1","Interesting fact 2"]
+        },
+        {
+            "name": "Dynamical Processes on Complex Networks",
+            "points": ["Interesting fact 1","Interesting fact 2"]
+        }
+    ]
+}
