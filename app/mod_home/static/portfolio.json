@@ -8,7 +8,8 @@
             "image": "voter.png",
             "journal": "EPL (Europhysics Letters)",
             "link": "http://dx.doi.org/10.1209/0295-5075/113/48001",
-            "arxiv": "http://arxiv.org/abs/1601.03766"
+            "arxiv": "http://arxiv.org/abs/1601.03766",
+            "editors": "True"
         },
         {
             "title": "Influence of Luddism on Innovation Diffusion",

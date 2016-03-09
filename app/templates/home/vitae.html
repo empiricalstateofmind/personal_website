@@ -127,7 +127,7 @@
 </div>
 </div>
 <div class="col-xs-9">
-<h3> {{ pub.title }} </h3>
+<h3> {{ pub.title }} {% if pub.editors is defined %} <img src={{ url_for('home.static',filename="editors.png")}} alt="Editor's Choice" height=20px> {% endif %}</h3>
 <h6> {{ pub.authors }} </h6>  
 <p> {{ pub.abstract }} </p>
 <p>
