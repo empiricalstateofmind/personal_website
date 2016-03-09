@@ -3,13 +3,15 @@
         {
             "title": "Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry",
             "authors": "Andrew Mellor, Mauro Mobilia, R.K.P Zia",
-            "date": "14th January 2016",
+            "date": "8th March 2016",
             "abstract": "We introduce an heterogeneous nonlinear q-voter model with two types of susceptible voters and zealots, and study its non-equilibrium properties when the population is finite and well mixed. In this two-opinion model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. We show that this model violates the detailed balance whenever q1≠q2 and has surprisingly rich properties. Here, we focus on the characterization of the model’s non-equilibrium stationary state (NESS) in terms of its probability distribution and currents in the distinct regimes of low and high density of zealotry. We unveil the NESS properties in each of these phases by computing the opinion distribution and the circulation of probability currents, as well as the two-point correlation functions at unequal times (formally related to a “probability angular momentum”). Our analytical calculations obtained in the realm of a linear Gaussian approximation are compared with numerical results.",
             "image": "voter.png",
+            "journal": "EPL (Europhysics Letters)",
+            "link": "http://dx.doi.org/10.1209/0295-5075/113/48001",
             "arxiv": "http://arxiv.org/abs/1601.03766"
         },
         {
-            "title": "Influence of Luddism on innovation diffusion",
+            "title": "Influence of Luddism on Innovation Diffusion",
             "authors": "Andrew Mellor, Mauro Mobilia, S. Redner, Alastair M. Rucklidge, Jonathan A. Ward",
             "date": "10th July 2015",
             "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.",
@@ -20,6 +22,15 @@
         }
     ],
     "conferences": [
+        {
+            "title": "LAND Seminar Leeds",
+            "location": "University of Leeds, UK",
+            "date": "16th February 2016",
+            "contribution": "Invited Speaker: Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry",
+            "abstract": "",
+            "image": "network.png",
+            "link": "http://www1.maths.leeds.ac.uk/events/seminars/land.html"
+        },
         {
             "title": "Dynamical Networks and Network Dynamics Workshop",
             "location": "ICMS Edinburgh, UK",
