@@ -24,6 +24,24 @@
     ],
     "conferences": [
         {
+            "title": "KTN Alan Tayler Day",
+            "location": "Oxford, UK",
+            "date": "28th November 2016",
+            "contribution": "Invited Speaker",
+            "abstract": "",
+            "image": "ktn.png",
+            "link": "https://www.maths.ox.ac.uk/groups/ociam/events/alan-tayler-lecture"
+        },
+        {
+            "title": "Santa Fe Institute Complex Systems Summer School",
+            "location": "Santa Fe, NM, USA",
+            "date": "12th June 2016",
+            "contribution": "Attendee",
+            "abstract": "The program consists of an intensive series of lectures, laboratories, and discussion sessions focusing on foundational ideas, tools, and current topics in complex systems research. These include nonlinear dynamics and pattern formation, scaling theory, information theory and computation theory, adaptation and evolution, network structure and dynamics, adaptive computation techniques, computer modeling tools and specific applications of these core topics to various disciplines.",
+            "image": "santafe.jpg",
+            "link": "http://santafe.edu/education/schools/complex-systems-summer-schools/"
+        },
+        {
             "title": "LAND Seminar Leeds",
             "location": "University of Leeds, UK",
             "date": "16th February 2016",
@@ -94,7 +112,7 @@
             "contribution": "Poster Presentation: Understanding Voting Preference and Influence in Social Media",
             "abstract": "",
             "image": "ktn.png",
-            "link": "http://www.eccs14.eu/index.php"
+            "link": "https://www.maths.ox.ac.uk/groups/ociam/events/alan-tayler-lecture"
         },
         {
             "title": "European Conference of Complex Systems",
