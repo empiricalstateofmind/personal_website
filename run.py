@@ -5,6 +5,11 @@ from flask_frozen import Freezer
 
 freezer = Freezer(app)
 
+@freezer.register_generator
+def project_urls():
+    for project in ['top-climbs']:
+        yield 'home.projects', {'project_slug': project}
+
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
