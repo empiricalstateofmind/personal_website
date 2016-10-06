@@ -29,6 +29,14 @@ def research():
     topics = data['topics']
 
     return render_template('/home/research.html', topics=topics)   
+
+@mod_home.route('projects/<project_slug>')
+def projects(project_slug):
+
+    if project_slug is None:
+        return render_template('/home/projects/projects.html')
+    else:
+        return render_template('/home/projects/{}.html'.format(project_slug))
     
 @mod_home.route('test/')
 def test():
