@@ -1,14 +1,14 @@
 from flask import Flask, render_template, url_for
 
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.bootstrap import Bootstrap
+#from flask.ext.sqlalchemy import SQLAlchemy
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
 Bootstrap(app)
 
 app.config.from_object('config.BaseConfig')
 
-db = SQLAlchemy(app)
+#db = SQLAlchemy(app)
 
 @app.errorhandler(404)
 def not_found(error):
@@ -39,4 +39,4 @@ app.register_blueprint(home_module, url_prefix='/')
 
 # Build the database:
 # This will create the database file using SQLAlchemy
-db.create_all()
+#db.create_all()

@@ -6,8 +6,8 @@ class BaseConfig(object):
     BASE_DIR = os.path.abspath(os.path.dirname(__file__))  
 
     #SQLALCHEMY_DATABASE_URI = #'mysql://empirical:state@10.41.71.220:3306/empirical' 
-    SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(BASE_DIR, 'app.db')
-    DATABASE_CONNECT_OPTIONS = {}
+    #SQLALCHEMY_DATABASE_URI ='sqlite:///' + os.path.join(BASE_DIR, 'app.db')
+    #DATABASE_CONNECT_OPTIONS = {}
 
     # Application threads. A common general assumption is
     # using 2 per available processor cores - to handle
