@@ -30,7 +30,7 @@ def research():
 
     return render_template('/home/research.html', topics=topics)   
 
-@mod_home.route('projects/<project_slug>')
+@mod_home.route('projects/<project_slug>.html')
 def projects(project_slug):
 
     if project_slug is None:
