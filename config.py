@@ -21,6 +21,6 @@ class BaseConfig(object):
     SECRET_KEY = "secret"
 
     JSON_AS_ASCII = False
-    
+ 
 class DevConfig(BaseConfig):
     pass

@@ -1,9 +1,13 @@
 from flask import Blueprint, request, render_template, \
                   flash, g, session, redirect, url_for, Response, \
-                  stream_with_context
+                  stream_with_context, config
 import json
 
 mod_home = Blueprint('home', __name__, static_folder='static')
+
+@mod_home.context_processor
+def inject_dict_for_all_templates():
+    return dict(project_list={'Mapping the Top 100 Climbs':'/projects/top-climbs.html'})
 
 @mod_home.route('/')
 def index():
