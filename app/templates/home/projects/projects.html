@@ -1,0 +1,40 @@
+{% extends "basic.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Andrew Mellor - Projects{% endblock %}
+
+{% block head %}
+{{super()}}
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<div class="page-header">
+  <h1>Projects<small></small></h1>
+</div>
+
+<div class="list-group">
+  {% for text, url in project_list.iteritems() %}
+  <h4><b><a href="{{ url }}" class="list-group-item">{{ text }}</a></b></h4>
+  {% endfor %}
+</div>
+
+{% block footer %}
+{{super()}}
+{% endblock %}
+
+{% endblock %}

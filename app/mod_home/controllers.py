@@ -36,7 +36,6 @@ def research():
 
 @mod_home.route('projects/<project_slug>.html')
 def projects(project_slug):
-
     if project_slug is None:
         return render_template('/home/projects/projects.html')
     else:

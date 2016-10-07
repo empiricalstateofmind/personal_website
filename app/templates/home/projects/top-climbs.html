@@ -28,8 +28,21 @@
 </div>
 
 <div class="row">
+<p><a href="https://www.amazon.co.uk/exec/obidos/ASIN/0711231206/richardpettin-21">100 Greatest Cycling Climbs</a> is a great book detailing some of the biggest, best, and most scenic cycling climbs in the UK.</p>
+<p>Beyond trying to cross-reference the list of climbs with Strava (which has an awful search function!), there wasn't a quick an easy way to see which climbs in the local area and how much hard work would be required to climb them - so I made the following interactive map. Click on any of the climbs to see the Strava segment.</p>
+<p>As an added bonus I've added the climbs from <a href="https://www.amazon.co.uk/gp/product/0711232652/">Another 100 Greatest Cycling Climbs</a> which are coloured in blue.</p>
+<p>Get Climbing!</p>
+</div>
+<div class="row">
 <iframe width="100%" height="650px" src={{ url_for('home.static',filename="full-terrain.html") }}></iframe>
 </div>
+
+<div class="row">
+<h4>References</h4>
+<p><a href="http://cyclinguphill.com/100-climbs/">Cycling Uphill</a> - Great blog from legendary hill climber Tejvan Pettinger. Includes descriptions and pictures of most climbs. </p>
+<p><a href="https://www.amazon.co.uk/exec/obidos/ASIN/0711231206/richardpettin-21">100 Greatest Cycling Climbs (Amazon)</a> - Buy on Amazon. </p>
+<p><a href="https://www.amazon.co.uk/gp/product/0711232652/">Another 100 Greatest Cycling Climbs (Amazon)</a> - Buy on Amazon. </p>
+<p><a href="https://www.strava.com/clubs/52733?hl=en-GB">The 100 Climbs Strava Club</a> - The Strava Club for the 100 climbs (complete with competitive league). </p>
 
 {% block footer %}
 {{super()}}
