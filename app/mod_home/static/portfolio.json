@@ -1,6 +1,16 @@
 {
     "publications": [
         {
+            "title": "Heterogeneous Out-of-Equilibrium Nonlinear q-Voter Model with Zealotry",
+            "authors": "Andrew Mellor, Mauro Mobilia, R.K.P. Zia",
+            "date": "4th January 2017",
+            "abstract": "We study the dynamics of the out-of-equilibrium nonlinear q-voter model with two types of susceptible voters and zealots, introduced in [EPL 113, 48001 (2016)]. In this model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. This model violates detailed balance whenever q1≠q2 and is characterized by two distinct regimes of low and high density of zealotry. Here, by combining analytical and numerical methods, we investigate the non-equilibrium stationary state of the system in terms of its probability distribution, non-vanishing currents and unequal-time two-point correlation functions. We also study the switching times properties of the model by exploiting an approximate mapping onto the model of [Phys. Rev. E 92, 012803 (2015)] that satisfies the detailed balance, and also outline some properties of the model near criticality.",
+            "image": "voter.png",
+            "journal": "Physical Review E",
+            "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.012104",
+            "arxiv": "https://arxiv.org/abs/1610.06092",
+        },
+        {
             "title": "Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry",
             "authors": "Andrew Mellor, Mauro Mobilia, R.K.P. Zia",
             "date": "8th March 2016",
@@ -23,6 +33,15 @@
         }
     ],
     "conferences": [
+        {
+            "title": "Bristol Applied Nonlinear Dynamics Seminar",
+            "location": "Bristol, UK",
+            "date": "28th April 2017",
+            "contribution": "Invited Speaker: A Heterogeneous Out-of-Equilibrium Nonlinear q-Voter Model with Zealotry",
+            "abstract": "",
+            "image": "network.png",
+            "link": "http://www.bristol.ac.uk/engineering/research/anm/"
+        },
         {
             "title": "KTN Alan Tayler Day",
             "location": "Oxford, UK",
