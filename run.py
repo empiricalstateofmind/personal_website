@@ -7,7 +7,7 @@ freezer = Freezer(app)
 
 @freezer.register_generator
 def project_urls():
-    for project in ['top-climbs','projects']:
+    for project in ['top-climbs','projects', 'sketches']:
         yield 'home.projects', {'project_slug': project}
 
 if __name__ == '__main__':
