@@ -1,0 +1,79 @@
+{% extends "basic.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Andrew Mellor - Projects{% endblock %}
+
+{% block head %}
+{{super()}}
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+
+<style type="text/css">
+    .thumbnail {
+        position: relative;
+        display: inline-block;
+    }
+    .thumbnail .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .thumbnail:hover .img-top {
+        display: inline;
+    }
+</style>
+
+{% endblock %}
+
+{% block navbar %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<div class="page-header">
+  <h1>Sketches & Colourings<small></small></h1>
+</div>
+
+<div class="row">
+{% for image in data.sketches.images %}
+
+  <div class="col-sm-8 col-md-6">
+    <div class="thumbnail">
+
+<!--       <div class="card"> -->
+	  <a href={{ url_for('home.static', filename=image.filename) }}>
+      <img src={{ url_for('home.static', filename=image.filename) }} alt="...">
+      </a>
+      {% if image.altfilename is defined %}
+      <a href={{ url_for('home.static', filename=image.filename) }}>
+      <img src={{ url_for('home.static', filename=image.altfilename) }} alt="..." class="img-top">
+      </a>
+      {% endif %}
+<!--       </div> -->
+
+      <div class="caption">
+        <h3>{{ image.name }}</h3>
+        <p> {{ image.date }}</p>
+      </div>
+    </div>
+  </div>
+
+{% endfor %}
+</div>
+
+{% block footer %}
+{{super()}}
+{% endblock %}
+
+{% endblock %}

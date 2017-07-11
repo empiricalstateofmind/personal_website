@@ -1,6 +1,14 @@
 {
     "publications": [
         {
+            "title": "The Temporal Event Graph",
+            "authors": "Andrew Mellor",
+            "date": "8th June 2017",
+            "abstract": "Temporal networks are increasingly being used to model the interactions of complex systems. Most studies require the temporal aggregation of edges (or events) into discrete time steps to perform analysis. In this article we describe a static, lossless, and unique representation of a temporal network, the temporal event graph (TEG). The TEG describes the temporal network in terms of both the inter-event time and two-event temporal motif distributions. By considering these distributions in unison we provide a new method to characterise the behaviour of individuals and collectives in temporal networks as well as providing a natural decomposition of the network. We illustrate the utility of the TEG by providing examples on both synthetic and real temporal networks.",
+            "image": "network.png",
+            "arxiv": "https://arxiv.org/abs/1706.02128"
+        },
+        {
             "title": "Heterogeneous Out-of-Equilibrium Nonlinear q-Voter Model with Zealotry",
             "authors": "Andrew Mellor, Mauro Mobilia, R.K.P. Zia",
             "date": "4th January 2017",
@@ -8,7 +16,7 @@
             "image": "voter.png",
             "journal": "Physical Review E",
             "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.012104",
-            "arxiv": "https://arxiv.org/abs/1610.06092",
+            "arxiv": "https://arxiv.org/abs/1610.06092"
         },
         {
             "title": "Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry",

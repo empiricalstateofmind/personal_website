@@ -7,7 +7,8 @@ mod_home = Blueprint('home', __name__, static_folder='static')
 
 @mod_home.context_processor
 def inject_dict_for_all_templates():
-    return dict(project_list={'Mapping the Top 100 Climbs':'/projects/top-climbs.html'})
+    return dict(project_list={'Mapping the Top 100 Climbs':'/projects/top-climbs.html',
+                              'Sketches & Colourings':'/projects/sketches.html'})
 
 @mod_home.route('/')
 def index():
@@ -39,7 +40,9 @@ def projects(project_slug):
     if project_slug is None:
         return render_template('/home/projects/projects.html')
     else:
-        return render_template('/home/projects/{}.html'.format(project_slug))
+        with mod_home.open_resource('static/projects.json') as w:
+            data = json.load(w)
+        return render_template('/home/projects/{}.html'.format(project_slug), data=data)
     
 @mod_home.route('test/')
 def test():

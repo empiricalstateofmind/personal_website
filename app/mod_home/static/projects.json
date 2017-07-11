@@ -1,0 +1,21 @@
+{
+    "sketches": 
+        {
+            "images": [
+                {"name": "Cannondale SuperSix Evo",
+                 "filename": "sketches/cannondale.png",
+                 "altfilename": "sketches/cannondale-original.png",
+                 "description": "My bike", 
+                 "date": "July 2017"
+                 },
+                {"name": "KitKat Chunky",
+                 "filename": "sketches/kitkat.jpg",
+                 "altfilename": "sketches/kitkat-original.jpg",
+                 "description": "My bike", 
+                 "date": "May ‎2007"
+                 }
+                ]      
+        },
+    "mapping-climbs": [
+        ]
+}
