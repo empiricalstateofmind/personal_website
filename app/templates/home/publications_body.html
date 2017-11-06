@@ -1,0 +1,108 @@
+<form action="" id="quicksearch">
+<input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
+<span id="searchstat">Matching entries: <span id="stat">0</span></span>
+<div id="showsettings" onclick="toggleSettings()">settings...</div>
+<div id="settings" class="hidden">
+<ul>
+<li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+<li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+</ul>
+</div>
+</form>
+<table id="qs_table" border="1">
+<tbody>
+<tr id="mellor2017temporal" class="entry">
+	<td>Mellor A (2017), <i>"The Temporal Event Graph"</i>, ArXiv Preprint. 
+	<p class="infolinks">[<a href="javascript:toggleInfo('mellor2017temporal','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('mellor2017temporal','bibtex')">BibTeX</a>]</p>
+	</td>
+</tr>
+<tr id="abs_mellor2017temporal" class="abstract noshow">
+	<td><b>Abstract</b>: Temporal networks are increasingly being used to model the interactions of complex systems. Most studies require the temporal aggregation of edges (or events) into discrete time steps to perform analysis. In this article we describe a static, lossless, and unique representation of a temporal network, the temporal event graph (TEG). The TEG describes the temporal network in terms of both the inter-event time and two-event temporal motif distributions. By considering these distributions in unison we provide a new method to characterise the behaviour of individuals and collectives in temporal networks as well as providing a natural decomposition of the network. We illustrate the utility of the TEG by providing examples on both synthetic and real temporal networks.</td>
+</tr>
+<tr id="bib_mellor2017temporal" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@article{mellor2017temporal,
+  author = {Andrew Mellor},
+  title = {The Temporal Event Graph},
+  journal = {ArXiv Preprint},
+  year = {2017}
+}
+</pre></td>
+</tr>
+<tr id="mellor2017hetero" class="entry">
+	<td>Mellor A, Mobilia M and Zia RKP (2017), <i>"Heterogeneous out-of-equilibrium nonlinear q-voter model with zealotry"</i>, Physical Review E.  Vol. 95, pp. 012104. American Physical Society.
+	<p class="infolinks">[<a href="javascript:toggleInfo('mellor2017hetero','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('mellor2017hetero','bibtex')">BibTeX</a>] [<a href="http://doi.org/10.1103/PhysRevE.95.012104" target="_blank">DOI</a>]</p>
+	</td>
+</tr>
+<tr id="abs_mellor2017hetero" class="abstract noshow">
+	<td><b>Abstract</b>: We study the dynamics of the out-of-equilibrium nonlinear q-voter model with two types of susceptible voters and zealots, introduced in [EPL 113, 48001 (2016)]. In this model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. This model violates detailed balance whenever q1≠q2 and is characterized by two distinct regimes of low and high density of zealotry. Here, by combining analytical and numerical methods, we investigate the non-equilibrium stationary state of the system in terms of its probability distribution, non-vanishing currents and unequal-time two-point correlation functions. We also study the switching times properties of the model by exploiting an approximate mapping onto the model of [Phys. Rev. E 92, 012803 (2015)] that satisfies the detailed balance, and also outline some properties of the model near criticality.</td>
+</tr>
+<tr id="bib_mellor2017hetero" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@article{mellor2017hetero,
+  author = {Mellor, Andrew and Mobilia, Mauro and Zia, R. K. P.},
+  title = {Heterogeneous out-of-equilibrium nonlinear q-voter model with zealotry},
+  journal = {Physical Review E},
+  publisher = {American Physical Society},
+  year = {2017},
+  volume = {95},
+  pages = {012104},
+  doi = {10.1103/PhysRevE.95.012104}
+}
+</pre></td>
+</tr>
+<tr id="mellor2016characterization" class="entry">
+	<td>Mellor A, Mobilia M and Zia RKP (2016), <i>"Characterization of the nonequilibrium steady state of a heterogeneous nonlinear q-voter model with zealotry"</i>, EPL (Europhysics Letters).  Vol. 113(4), pp. 48001.
+	<p class="infolinks">[<a href="javascript:toggleInfo('mellor2016characterization','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('mellor2016characterization','bibtex')">BibTeX</a>] [<a href="http://doi.org/10.1209/0295-5075/113/48001" target="_blank">DOI</a>]</p>
+	</td>
+</tr>
+<tr id="abs_mellor2016characterization" class="abstract noshow">
+	<td><b>Abstract</b>: We introduce an heterogeneous nonlinear q-voter model with zealots and two types of susceptible voters, and study its non-equilibrium properties when the population is finite and well mixed. In this two-opinion model, each individual supports one of two parties and is either a zealot or a susceptible voter of type q1 or q2. While here zealots never change their opinion, a qi-susceptible voter (i=1,2) consults a group of qi neighbors at each time step, and adopts their opinion if all group members agree. We show that this model violates the detailed balance whenever q1≠q2 and has surprisingly rich properties. Here, we focus on the characterization of the model's non-equilibrium stationary state (NESS) in terms of its probability distribution and currents in the distinct regimes of low and high density of zealotry. We unveil the NESS properties in each of these phases by computing the opinion distribution and the circulation of probability currents, as well as the two-point correlation functions at unequal times (formally related to a "probability angular momentum"). Our analytical calculations obtained in the realm of a linear Gaussian approximation are compared with numerical results.</td>
+</tr>
+<tr id="bib_mellor2016characterization" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@article{mellor2016characterization,
+  author = {Andrew Mellor and Mauro Mobilia and R. K. P. Zia},
+  title = {Characterization of the nonequilibrium steady state of a heterogeneous nonlinear q-voter model with zealotry},
+  journal = {EPL (Europhysics Letters)},
+  year = {2016},
+  volume = {113},
+  number = {4},
+  pages = {48001},
+  doi = {10.1209/0295-5075/113/48001}
+}
+</pre></td>
+</tr>
+<tr id="mellor2015influence" class="entry">
+	<td>Mellor A, Mobilia M, Redner S, Rucklidge AM and Ward JA (2015), <i>"Influence of Luddism on innovation diffusion"</i>, Physical Review E.  Vol. 92, pp. 012806. American Physical Society.
+	<p class="infolinks">[<a href="javascript:toggleInfo('mellor2015influence','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('mellor2015influence','bibtex')">BibTeX</a>] [<a href="http://doi.org/10.1103/PhysRevE.92.012806" target="_blank">DOI</a>]</p>
+	</td>
+</tr>
+<tr id="abs_mellor2015influence" class="abstract noshow">
+	<td><b>Abstract</b>: We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the <em>rate</em> of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.</td>
+</tr>
+<tr id="bib_mellor2015influence" class="bibtex noshow">
+<td><b>BibTeX</b>:
+<pre>
+@article{mellor2015influence,
+  author = {Mellor, Andrew and Mobilia, Mauro and Redner, S. and Rucklidge, Alastair M. and Ward, Jonathan A.},
+  title = {Influence of Luddism on innovation diffusion},
+  journal = {Physical Review E},
+  publisher = {American Physical Society},
+  year = {2015},
+  volume = {92},
+  pages = {012806},
+  doi = {10.1103/PhysRevE.92.012806}
+}
+</pre></td>
+</tr>
+</tbody>
+</table>
+<footer>
+ <small>Created by <a href="http://jabref.sourceforge.net">JabRef</a> on 13/07/2017.</small>
+</footer>

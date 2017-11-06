@@ -5,6 +5,7 @@
 
 {% block head %}
 {{super()}}
+{% include './home/publications_head.html' %}
 {% endblock %}
 
 {% block scripts %}
@@ -36,7 +37,32 @@
 <div class="tab-content">
 
   <div class="tab-pane fade in active" id="cv"> <br>
-<!--     <div class="panel panel-primary">
+    
+    <div class="row">
+    <div class="col-md-2 col-md-offset-2">
+    <object data={{ url_for('static',filename='cv_061117.pdf')}} type="application/pdf" width="750px" height="750px">
+        <embed src={{ url_for('static',filename='cv_061117.pdf')}} type="application/pdf">
+            <p>This browser does not support PDFs. Please download the PDF to view it: <a href={{ url_for('static',filename='cv_061117.pdf')}}>Download PDF</a>.</p>
+        </embed>
+    </object>
+    </div>
+    </div>
+    <!-- <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Employment</h3>
+      </div>
+      <div class="panel-body"> 
+      {% for entry in cv.education %}
+        <strong><p> {{ entry.school }}  ({{ entry.date }})</p></strong>
+      {% for inf in entry.info %}
+        <p> {{ inf }} </p>
+      {% endfor %}
+        </br>
+      {% endfor %}   
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title">Education</h3>
       </div>
@@ -50,6 +76,41 @@
         </br>
       {% endfor %}   
     
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Publications</h3>
+      </div>
+      <div class="panel-body"> 
+       
+    {% include './home/publications_body.html' %}
+
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Conferences</h3>
+      </div>
+      <div class="panel-body">  
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Teaching</h3>
+      </div>
+      <div class="panel-body">  
+        </div>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Academic Other</h3>
+      </div>
+      <div class="panel-body">  
         </div>
     </div>
 
@@ -101,18 +162,7 @@
         </div>
     </div> -->
 
-    <div class="row">
-    <div class="col-xs-4"></div>
-    <div class="col-xs-4">
-      </br>
-      </br>
-      <p>CV available on request.</p>
-      </br>
-    </div>
-    <div class="col-xs-4"></div>
-    </div>
-
-    </div>
+    </div> 
 
 <div class="tab-pane fade" id="publications"> <br>
 {% for pub in publications %}
