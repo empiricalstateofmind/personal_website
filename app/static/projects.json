@@ -13,6 +13,12 @@
                  "altfilename": "sketches/kitkat-original.jpg",
                  "description": "My bike", 
                  "date": "May ‎2007"
+                 },
+                {"name": "Elephant",
+                 "filename": "sketches/elephant.jpg",
+                 "altfilename": "sketches/elephant-original.jpg",
+                 "description": "My bike", 
+                 "date": "January ‎2017"
                  }
                 ]      
         },
