@@ -28,199 +28,125 @@
 
 <!-- Nav tabs -->
 <ul class="nav nav-tabs nav-pills nav-justified">
-  <li class="active"><a href="#cv" data-toggle="tab">Curriculum Vitae</a></li>
   <li><a href="#publications" data-toggle="tab">Publications</a></li>
   <li><a href="#conferences" data-toggle="tab">Conferences/Talks</a></li>
+  <li><a href="#miscellaneous" data-toggle="tab">Miscellaneous</a></li>
 </ul>
 
 <!-- Tab panes -->
 <div class="tab-content">
 
-  <div class="tab-pane fade in active" id="cv"> <br>
-    
-    <div class="row">
-    <div class="col-md-2 col-md-offset-2">
-    <object data={{ url_for('static',filename='cv_061117.pdf')}} type="application/pdf" width="750px" height="750px">
-        <embed src={{ url_for('static',filename='cv_061117.pdf')}} type="application/pdf">
-            <p>This browser does not support PDFs. Please download the PDF to view it: <a href={{ url_for('static',filename='cv_061117.pdf')}}>Download PDF</a>.</p>
-        </embed>
-    </object>
-    </div>
-    </div>
-    <!-- <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Employment</h3>
-      </div>
-      <div class="panel-body"> 
-      {% for entry in cv.education %}
-        <strong><p> {{ entry.school }}  ({{ entry.date }})</p></strong>
-      {% for inf in entry.info %}
-        <p> {{ inf }} </p>
-      {% endfor %}
-        </br>
-      {% endfor %}   
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Education</h3>
-      </div>
-      <div class="panel-body"> 
-    
-      {% for entry in cv.education %}
-        <strong><p> {{ entry.school }}  ({{ entry.date }})</p></strong>
-      {% for inf in entry.info %}
-        <p> {{ inf }} </p>
-      {% endfor %}
-        </br>
-      {% endfor %}   
-    
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Publications</h3>
-      </div>
-      <div class="panel-body"> 
-       
-    {% include './home/publications_body.html' %}
-
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Conferences</h3>
-      </div>
-      <div class="panel-body">  
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Teaching</h3>
-      </div>
-      <div class="panel-body">  
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Academic Other</h3>
-      </div>
-      <div class="panel-body">  
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Work Experience</h3>
-      </div>
-      <div class="panel-body"> 
-      
-        {% for entry in cv.work %}
-        <strong><p> {{ entry.job }}  ({{ entry.date }})</p></strong>
-      {% for inf in entry.info %}
-        <p> {{ inf }} </p>
-      {% endfor %}
-        </br>
-      {% endfor %}   
-
-       
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Technology</h3>
-      </div>
-      <div class="panel-body"> 
-      {% for entry in cv.tech %}
-     <strong><p> {{ entry.skill }} </p></strong>
-      {% for inf in entry.info %}
-        <p> {{ inf }} </p>
-      {% endfor %}
-        </br>
-      {% endfor %}        
-        </div>
-    </div>
-
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Extra Curricular</h3>
-      </div>
-      <div class="panel-body"> 
-      {% for entry in cv.extra %}
-     <strong><p> {{ entry.item }} </p></strong>
-      {% for inf in entry.info %}
-        <p> {{ inf }} </p>
-      {% endfor %}
-        </br>
-      {% endfor %}    
-        </div>
-    </div> -->
-
-    </div> 
-
 <div class="tab-pane fade" id="publications"> <br>
-{% for pub in publications %}
 
-<div class="well well-sm">
-<div class="row vertical-centering">
-<div class="col-xs-3">
-<div class="thumbnail"> <img src={{ url_for('home.static',filename=pub.image)}} alt="Publication Image">
-<div class="caption">
+<div class="text-center">
+<p>For a full list of publications please see my <a href="https://scholar.google.co.uk/citations?user=6X6NyfIAAAAJ&hl=en">Google Scholar Page</a>.</p>
 </div>
-<div class="panel-footer"> {{ pub.date }} </div>
-</div>
-</div>
-<div class="col-xs-9">
-<h3> {{ pub.title }} {% if pub.editors is defined %} <img src={{ url_for('home.static',filename="editors.png")}} alt="Editor's Choice" height=20px> {% endif %}</h3>
-<h6> {{ pub.authors }} </h6>  
-<p> {{ pub.abstract }} </p>
+
+{% for type, desc in [('preprint','Preprints and Under Review'), ('article', 'Journal Articles')] %}
+
 <p>
-{% if pub.journal is defined %}
-<a href={{ pub.link }} class="btn btn-primary" role="button">{{ pub.journal }}</a>
-{% endif %} 
-<a href={{ pub.arxiv }}  class="btn btn-default" role="button">Arxiv</a></p>
-</div>
-</div>
-</div>
+  <h1> {{desc}} </h1>
+</p>
+
+  {% for pub in publications[type] %}
+
+  <div class="well well-sm">
+
+    <p> <b>{{ pub.title }} ({{ pub.date }}) </b>
+      {% if pub.editors is defined %}
+      <img src={{ url_for('home.static', filename="editors.png")}} alt="Editor's Choice" height=20px>
+      {% endif %} <br>
+      <i> {{ pub.authors }} </i></p>
+    {% if pub.journal is defined %}
+    <p><a href={{ pub.link }}>[{{ pub.journal }}]</a>
+      {% endif %}
+      <a href={{ pub.arxiv }}>[ArXiv]</a>
+      <a href="#abstract_{{ loop.index }}_{{ type }}" data-toggle="collapse">[Show abstract]</a></p>
+    <div id="abstract_{{ loop.index }}_{{ type }}" class="collapse">
+      <p>{{ pub.abstract }}</p>
+    </div>
+
+  </div>
+
+  {% endfor %}
+
 {% endfor %}
+
 </div>
 
 <div class="tab-pane fade" id="conferences"> <br>
-{% for conf in conferences %}
+
+{% for type, desc  in [('invited','Invited Talks and Posters'), ('contributed', 'Contributed Talks and Posters'), ('school', 'Schools'), ('attended', 'Attended')] %}
+
+  <p>
+    <h1> {{desc}} </h1>
+  </p>
+
+  {% for conf in conferences[type] %}
+
+    <div class="well well-sm">
+
+    <p>
+      <b>{{conf.title}}</b><br>
+    <i>{{conf.location}}</i> ({{conf.date}})<br>
+    {{conf.contribution}}<br>
+    {% if conf.link is defined %} <a href={{conf.link}}>[Link]</a> {% endif %}
+    {% if conf.presentation_title is defined %}
+        <a href="#details_{{ loop.index }}_{{type}}" data-toggle="collapse">[Show details]</a></p>
+        <div id="details_{{ loop.index }}_{{type}}" class="collapse">
+          <p><b>Title: {{ conf.presentation_title }}</b><br>
+          {{ conf.presentation_abstract }}
+          </p>
+        </div>
+    {% else %}
+        </p>
+    {% endif %}
+    </p>
+
+    </div>
+
+  {% endfor %}
+
+{% endfor %}
+
+</div>
+
+<div class="tab-pane fade" id="miscellaneous"> <br>
+
+  <p>
+    <h1> Teaching </h1>
+  </p>
+
+{% for teach in teaching %}
+
 <div class="well well-sm">
-<div class="row vertical-centering">
-<div class="col-xs-2">
-<div class="thumbnail"> <img src={{ url_for('home.static',filename=conf.image) }} alt="Conference Photo">
 
-</div>
-</div>
-<div class="col-xs-10">
-<h3>{{conf.title}}</h3> 
-<h6> {{conf.location}} (<i>{{conf.date}}</i>)</h6> 
-<h6><b> {{conf.contribution}} </b></h6>
-<p> {{conf.abstract}} </p>
-<p>
+  <p> {{ teach.project_award }} (<i>{{ teach.institution }}</i>)<br>
+      <b>Student:</b> {{ teach.student }} ({{ teach.date }})<br>
+      <b>Title:</b> {{ teach.title }}<br>
+  </p>
 
-{% if conf.link is defined %}
-<a href={{conf.link}} class="btn btn-primary" role="button">Link</a>
-{% endif %}
-
-{% if conf.resources is defined %}
-<a href={{conf.resources}} class="btn btn-primary" role="button">Resources</a>
-{% endif %}
-</p>
-</div>
-</div>
 </div>
 
 {% endfor %}
+
+  <p>
+    <h1> Reviews </h1>
+  </p>
+
+  <div class="well well-sm">
+
+    <ul>
+
+    {% for review in reviewing %}
+      <li>{{ review.name }} ({{ review.short_name }})</li>
+    {% endfor %}
+
+    </ul>
+
   </div>
+
+</div>
 
 </div>
 
