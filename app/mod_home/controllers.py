@@ -16,15 +16,18 @@ def index():
 
 @mod_home.route('vitae/')
 def vitae():
-    with mod_home.open_resource('static/portfolio.json') as w:
+    with mod_home.open_resource('static/vitae.json') as w:
          data = json.load(w)
         
     publications = data['publications']
     conferences = data['conferences']
-    cv = data['cv']
+    reviewing = data['reviewing']
+    teaching = data['teaching']
 
-    return render_template('/home/vitae.html', publications=publications, conferences=conferences,
-                           cv=cv)    
+    return render_template('/home/vitae.html', publications=publications, 
+                                               conferences=conferences,
+                                               reviewing=reviewing,
+                                               teaching=teaching)    
     
 @mod_home.route('research/')
 def research():
