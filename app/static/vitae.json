@@ -297,6 +297,13 @@
         ],
         "preprint": [
             {
+                "abstract": "The comparison of graphs is a vitally important, yet difficult task which arises across a number of diverse research areas including biological and social networks. There have been a number of approaches to define graph distance however often these are not metrics (rendering standard data-mining techniques infeasible), or are computationally infeasible for large graphs. In this work we define a new metric based on the spectrum of the non-backtracking graph operator and show that it can not only be used to compare graphs generated through different mechanisms, but can reliably compare graphs of varying size. We observe that the family of Watts-Strogatz graphs lie on a manifold in the non-backtracking spectral embedding and show how this metric can be used in a standard classification problem of empirical graphs.",
+                "arxiv": "https://arxiv.org/abs/1812.05457",
+                "authors": "A. Mellor, A. Grusovin",
+                "date": "2018",
+                "title": "Graph Comparison via the Non-backtracking Spectrum"
+            },
+            {
                 "abstract": "Recent advances in data collection and storage have allowed both researchers and industry alike to collect data in real time. Much of this data comes in the form of 'events', or timestamped interactions, such as email and social media posts, website clickstreams, or protein-protein interactions. This of type data poses new challenges for modelling, especially if we wish to preserve all temporal features and structure. We propose a generalised framework to explore temporal networks using second-order time-unfolded models, called event graphs. Through examples we demonstrate how event graphs can be used to understand the higher-order topological-temporal structure of temporal networks and capture properties of the network that are unobserved when considering either a static (or time-aggregated) model. Furthermore, we show that by modelling a temporal network as an event graph our analysis extends easily to consider non-dyadic interactions, known as hyper-events.",
                 "arxiv": "https://arxiv.org/abs/1809.03457",
                 "authors": "A. Mellor",
@@ -346,7 +353,7 @@
         {
             "date": "October 2018",
             "institution": "University of Oxford",
-            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Dphil",
+            "project_award": "Industrially Focused Mathematics (InFoMM) CDT DPhil",
             "student": "Ambrose Yim",
             "title": "Modelling Scientific growth using Topological Data Analysis (Elsevier)"
         },
