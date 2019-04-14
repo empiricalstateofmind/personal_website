@@ -2,337 +2,402 @@
     "conferences": {
         "attended": [
             {
-                "contribution": "Attendee", 
-                "date": "Aug. 2017", 
-                "link": "http://www.maths.ox.ac.uk/groups/data-science/networks-matrix-functions-quantum-physics", 
-                "location": "University of Oxford, UK", 
+                "contribution": "Attendee",
+                "date": "Feb. 2019",
+                "link": "https://sites.google.com/site/boumedienehamzi/symposium-on-machine-learning-for-dynamical-systems_2019",
+                "location": "Imperial College London, UK",
+                "title": "Symposium on Machine Learning and Dynamical Systems"
+            },
+            {
+                "contribution": "Attendee",
+                "date": "Aug. 2017",
+                "link": "http://www.maths.ox.ac.uk/groups/data-science/networks-matrix-functions-quantum-physics",
+                "location": "University of Oxford, UK",
                 "title": "Networks Workshop: from Matrix Functions to Quantum Physics"
-            }, 
+            },
             {
-                "contribution": "Attendee", 
-                "date": "Sep. 2015", 
-                "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2015-16/symposium/flp/", 
-                "location": "University of Warwick, UK", 
+                "contribution": "Attendee",
+                "date": "Sep. 2015",
+                "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2015-16/symposium/flp/",
+                "location": "University of Warwick, UK",
                 "title": "Fluctuation driven phenomena in non-equilibrium statistical mechanics symposium"
-            }, 
+            },
             {
-                "contribution": "Attendee", 
-                "date": "Nov. 2013", 
-                "link": "http://icms.org.uk/workshops/bigdata2", 
-                "location": "Edinburgh, UK", 
+                "contribution": "Attendee",
+                "date": "Nov. 2013",
+                "link": "http://icms.org.uk/workshops/bigdata2",
+                "location": "ICMS Edinburgh, UK",
                 "title": "Big Data and Social Media Workshop"
             }
-        ], 
+        ],
         "contributed": [
             {
-                "contribution": "Contributed Talk", 
-                "date": "Sep. 2018", 
-                "location": "Thessaloniki, Greece", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "Conversation and Collective Behaviour in Digital Communication", 
+                "contribution": "Contributed Talk",
+                "date": "Jun. 2019",
+                "link": "https://www.maths.ox.ac.uk/groups/networks/networks-seminar",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Dynamics, Random Walks, and Graph Learning",
+                "title": "Networks Semimar"
+            },
+            {
+                "contribution": "Contributed Talk",
+                "date": "May. 2019",
+                "link": "http://vermontcomplexsystems.org/events/netsci/",
+                "location": "Burlington, VT, USA",
+                "presentation_authors": "A. Mellor, A. Grusovin",
+                "presentation_title": "Graph Comparison via the Non-backtracking Spectrum",
+                "title": "NetSci 19"
+            },
+            {
+                "contribution": "Contributed Poster",
+                "date": "May. 2019",
+                "link": "https://www.siam.org/Conferences/CM/Main/ns19",
+                "location": "Snowbird, UT, USA",
+                "presentation_authors": "A. Mellor, A. Grusovin",
+                "presentation_title": "Graph Comparison via the Non-backtracking Spectrum",
+                "title": "SIAM Workshop on Network Science"
+            },
+            {
+                "contribution": "Contributed Talk",
+                "date": "May. 2019",
+                "link": "https://www.siam.org/conferences/CM/Main/ds19",
+                "location": "Snowbird, UT, USA",
+                "presentation_authors": "A. Mellor, M. Mobilia, R.K.P. Zia",
+                "presentation_title": "A Nonlinear Heterogeneous q-Voter Model with Zealotry",
+                "title": "SIAM Conference on Applications of Dynamical Systems"
+            },
+            {
+                "contribution": "Contributed Talk",
+                "date": "Sep. 2018",
+                "link": "http://ccs2018.web.auth.gr/",
+                "location": "Thessaloniki, Greece",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Conversation and Collective Behaviour in Digital Communication",
                 "title": "Conference of Complex Systems"
-            }, 
+            },
             {
-                "contribution": "Contributed Talk", 
-                "date": "Apr. 2018", 
-                "location": "Imperial College, London", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "Classifying Conversation in Digital Communication", 
+                "contribution": "Contributed Talk",
+                "date": "Apr. 2018",
+                "link": "https://www.maths.ox.ac.uk/groups/networks/events/coxic-complexity-oxford-imperial-college",
+                "location": "Imperial College London, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Classifying Conversation in Digital Communication",
                 "title": "COXIC"
-            }, 
+            },
             {
-                "contribution": "Contributed Talk", 
-                "date": "Mar. 2018", 
-                "link": "http://complenet.weebly.com/", 
-                "location": "Northeastern University, USA", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "The Temporal Event Graph", 
+                "contribution": "Contributed Talk",
+                "date": "Mar. 2018",
+                "link": "http://complenet.weebly.com/",
+                "location": "Northeastern University, MA, USA",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "The Temporal Event Graph",
                 "title": "CompleNet 2018"
-            }, 
+            },
             {
-                "contribution": "Contributed Talk", 
-                "date": "Jan. 2018", 
-                "location": "University of Oxford, UK", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "Classifying Conversation in Digital Communication", 
-                "title": "Networks Journal Club Semimar"
-            }, 
+                "contribution": "Contributed Talk",
+                "date": "Jan. 2018",
+                "link": "https://www.maths.ox.ac.uk/groups/networks/networks-seminar",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Classifying Conversation in Digital Communication",
+                "title": "Networks Semimar"
+            },
             {
-                "contribution": "Contributed Talk", 
-                "date": "Nov. 2017", 
-                "location": "University of Oxford, UK", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "The Temporal Event Graph", 
-                "title": "Networks Journal Club Semimar"
-            }, 
+                "contribution": "Contributed Talk",
+                "date": "Nov. 2017",
+                "link": "https://www.maths.ox.ac.uk/groups/networks/networks-seminar",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "The Temporal Event Graph",
+                "title": "Networks Semimar"
+            },
             {
-                "contribution": "Contributed Poster", 
-                "date": "Nov. 2016", 
-                "link": "http://www.turing-gateway.cam.ac.uk/event/ofbw27", 
-                "location": "Isaac Newton Institute, Cambridge", 
-                "presentation_authors": "A. Mellor, M. Mobilia, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Analysing Patterns in Digital Communication", 
+                "contribution": "Contributed Poster",
+                "date": "Nov. 2016",
+                "link": "http://www.turing-gateway.cam.ac.uk/event/ofbw27",
+                "location": "Isaac Newton Institute, Cambridge, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Analysing Patterns in Digital Communication",
                 "title": "Theoretical Foundations for Statistical Network Analysis\u00a0Workshop"
-            }, 
+            },
             {
-                "contribution": "Contributed Talk", 
-                "date": "Aug. 2015", 
-                "link": "http://www.yrm2015.co.uk/", 
-                "location": "University of Oxford, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, S. Redner, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Influence of Luddism on Innovation Diffusion", 
+                "contribution": "Contributed Talk",
+                "date": "Aug. 2015",
+                "link": "http://www.yrm2015.co.uk/",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor, M. Mobilia, S. Redner, A.M. Rucklidge, J.A. Ward",
+                "presentation_title": "Influence of Luddism on Innovation Diffusion",
                 "title": "Young Researchers In Mathematics Conference"
-            }, 
+            },
             {
-                "contribution": "Contributed Talk", 
-                "date": "Jul. 2015", 
-                "link": "http://people.bath.ac.uk/ma3tcr/cden/", 
-                "location": "University of Bath, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, S. Redner, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Influence of Luddism on Innovation Diffusion", 
-                "title": "Collective Dynamics \\& Evolving Networks Workshop"
-            }, 
+                "contribution": "Contributed Talk",
+                "date": "Jul. 2015",
+                "link": "http://people.bath.ac.uk/ma3tcr/cden/",
+                "location": "University of Bath, UK",
+                "presentation_authors": "A. Mellor, M. Mobilia, S. Redner, A.M. Rucklidge, J.A. Ward",
+                "presentation_title": "Influence of Luddism on Innovation Diffusion",
+                "title": "Collective Dynamics & Evolving Networks Workshop"
+            },
             {
-                "contribution": "Contributed Poster", 
-                "date": "Sep. 2014", 
-                "link": "http://www.eccs14.eu/index.php", 
-                "location": "Lucca, Italy", 
-                "presentation_authors": "A. Mellor, M. Mobilia, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Using Communicability for Infectional Analysis on Temporal Networks", 
+                "contribution": "Contributed Poster",
+                "date": "Sep. 2014",
+                "link": "http://www.eccs14.eu/index.php",
+                "location": "Lucca, Italy",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Using Communicability for Infectional Analysis on Temporal Networks",
                 "title": "European Conference of Complex Systems"
             }
-        ], 
+        ],
         "invited": [
             {
-                "contribution": "Invited Talk", 
-                "date": "Sep. 2018", 
-                "location": "Thessaloniki, Greece", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "Collective Behaviour in Temporal Networks", 
-                "title": "CCS Satellite - Dynamics On and Of Complex Networks"
-            }, 
+                "contribution": "Invited Talk",
+                "date": "Jun. 2019",
+                "link": "https://www.inet.ox.ac.uk/programmes/complexity/",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor, M. Mobilia, R.K.P. Zia",
+                "presentation_title": "A Nonlinear Heterogeneous q-Voter Model with Zealotry",
+                "title": "INET Complexity Seminar"
+            },
             {
-                "contribution": "Invited Talk", 
-                "date": "Jun. 2018", 
-                "location": "Paris, France", 
-                "presentation_authors": "A. Mellor", 
-                "presentation_title": "Eventgraphs: Time-unfolded Second-order Temporal Network Models ", 
-                "title": "Higher Order Networks Satellite - NetSci 18 "
-            }, 
+                "contribution": "Invited Talk",
+                "date": "Sep. 2018",
+                "link": "http://doocn.org/2018/",
+                "location": "Thessaloniki, Greece",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Collective Behaviour in Temporal Networks",
+                "title": "CCS 18 - Dynamics On and Of Complex Networks Satellite"
+            },
             {
-                "contribution": "Invited Talk", 
-                "date": "Apr. 2017", 
-                "link": "http://www.bristol.ac.uk/engineering/research/anm/", 
-                "location": "Bristol, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, R.K.P. Zia", 
-                "presentation_title": "A Heterogeneous Out-of-Equilibrium Nonlinear q-Voter Model with Zealotry", 
+                "contribution": "Invited Talk",
+                "date": "Jun. 2018",
+                "link": "https://uzhdag.github.io/hons_web/2018/index.html",
+                "location": "Paris, France",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Eventgraphs: Time-unfolded Second-order Temporal Network Models\u00a0",
+                "title": "NetSci 18\u00a0 - Higher Order Networks Satellite"
+            },
+            {
+                "contribution": "Invited Talk",
+                "date": "Apr. 2017",
+                "link": "http://www.bristol.ac.uk/engineering/research/anm/",
+                "location": "University of Bristol, UK",
+                "presentation_authors": "A. Mellor, M. Mobilia, R.K.P. Zia",
+                "presentation_title": "A Heterogeneous Out-of-Equilibrium Nonlinear q-Voter Model with Zealotry",
                 "title": "Applied Nonlinear Dynamics Seminar"
-            }, 
+            },
             {
-                "contribution": "Invited Talk", 
-                "date": "Nov. 2016", 
-                "link": "https://www.maths.ox.ac.uk/groups/ociam/events/alan-tayler-lecture", 
-                "location": "Oxford, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Monitoring and Modelling Social Networks", 
+                "contribution": "Invited Talk",
+                "date": "Nov. 2016",
+                "link": "https://www.maths.ox.ac.uk/groups/ociam/events/alan-tayler-lecture",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Monitoring and Modelling Social Networks",
                 "title": "KTN Alan Tayler Day"
-            }, 
+            },
             {
-                "contribution": "Invited Talk", 
-                "date": "Feb. 2016", 
-                "link": "http://www1.maths.leeds.ac.uk/events/seminars/land.html", 
-                "location": "University of Leeds, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, R.K.P. Zia", 
-                "presentation_title": "Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry", 
+                "contribution": "Invited Talk",
+                "date": "Feb. 2016",
+                "link": "http://www1.maths.leeds.ac.uk/events/seminars/land.html",
+                "location": "University of Leeds, UK",
+                "presentation_authors": "A. Mellor, M. Mobilia, R.K.P. Zia",
+                "presentation_title": "Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry",
                 "title": "Nonlinear Dynamics Seminar (LAND)"
-            }, 
+            },
             {
-                "contribution": "Invited Talk", 
-                "date": "Jan. 2016", 
-                "link": "http://icms.org.uk/workshops/dynamicalnetworks", 
-                "location": "ICMS Edinburgh, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Simple Motifs and Centrality in Temporal Networks", 
+                "contribution": "Invited Talk",
+                "date": "Jan. 2016",
+                "link": "http://icms.org.uk/workshops/dynamicalnetworks",
+                "location": "ICMS Edinburgh, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Simple Motifs and Centrality in Temporal Networks",
                 "title": "Dynamical Networks and Network Dynamics Workshop"
-            }, 
+            },
             {
-                "contribution": "Invited Talk", 
-                "date": "Aug. 2015", 
-                "link": "http://www.cabdyn.ox.ac.uk/complexity_journalclub.asp", 
-                "location": "University of Oxford, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, S. Redner, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Influence of Luddism on Innovation Diffusion", 
+                "contribution": "Invited Talk",
+                "date": "Aug. 2015",
+                "link": "http://www.cabdyn.ox.ac.uk/complexity_journalclub.asp",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor, M. Mobilia, S. Redner, A.M. Rucklidge, J.A. Ward",
+                "presentation_title": "Influence of Luddism on Innovation Diffusion",
                 "title": "CabDyn Journal Club"
-            }, 
+            },
             {
-                "contribution": "Invited Poster", 
-                "date": "Nov. 2014", 
-                "link": "https://www.maths.ox.ac.uk/groups/ociam/events/alan-tayler-lecture", 
-                "location": "Oxford, UK", 
-                "presentation_authors": "A. Mellor, M. Mobilia, A. M. Rucklidge, J. A. Ward", 
-                "presentation_title": "Understanding Voting Preferene and Influence in Social Media", 
+                "contribution": "Invited Poster",
+                "date": "Nov. 2014",
+                "link": "https://www.maths.ox.ac.uk/groups/ociam/events/alan-tayler-lecture",
+                "location": "University of Oxford, UK",
+                "presentation_authors": "A. Mellor",
+                "presentation_title": "Understanding Voting Preference and Influence in Social Media",
                 "title": "KTN Alan Tayler Day"
             }
-        ], 
+        ],
         "school": [
             {
-                "contribution": "Attendee", 
-                "date": "Jun. 2016", 
-                "link": "http://santafe.edu/education/schools/complex-systems-summer-schools/", 
-                "location": "Santa Fe, NM, USA", 
+                "contribution": "Attendee",
+                "date": "Jun. 2016",
+                "link": "http://santafe.edu/education/schools/complex-systems-summer-schools/",
+                "location": "Santa Fe, NM, USA",
                 "title": "Santa Fe Institute Complex Systems Summer School"
-            }, 
+            },
             {
-                "contribution": "Attendee", 
-                "date": "Jun. 2015", 
-                "link": "http://www2.warwick.ac.uk/fac/sci/maths/research/events/2014-15/nonsymposium/csss/", 
-                "location": "University of Warwick, UK", 
+                "contribution": "Attendee",
+                "date": "Jun. 2015",
+                "link": "https://warwick.ac.uk/fac/sci/maths/research/events/2014-15/nonsymposium/csss/",
+                "location": "University of Warwick, UK",
                 "title": "Complexity Science Summer School"
-            }, 
+            },
             {
-                "contribution": "Attendee", 
-                "date": "Apr. 2014", 
-                "link": "http://leshouches2014.weebly.com/", 
-                "location": "Les Houches, France", 
+                "contribution": "Attendee",
+                "date": "Apr. 2014",
+                "link": "http://leshouches2014.weebly.com/",
+                "location": "Les Houches, France",
                 "title": "Complex Networks Thematic School"
             }
         ]
-    }, 
+    },
     "publications": {
         "article": [
             {
-                "abstract": "Temporal networks are increasingly being used to model the interactions of complex systems. Most studies require the temporal aggregation of edges (or events) into discrete time steps to perform analysis. In this article we describe a static, lossless, and unique representation of a temporal network, the temporal event graph (TEG). The TEG describes the temporal network in terms of both the inter-event time and two-event temporal motif distributions. By considering these distributions in unison we provide a new method to characterise the behaviour of individuals and collectives in temporal networks as well as providing a natural decomposition of the network. We illustrate the utility of the TEG by providing examples on both synthetic and real temporal networks.", 
-                "arxiv": "https://arxiv.org/abs/1706.02128", 
-                "authors": "A. Mellor", 
-                "date": "2017", 
-                "journal": "Journal of Complex Networks", 
-                "link": "https://academic.oup.com/comnet/advance-article-abstract/doi/10.1093/comnet/cnx048/4360827", 
+                "abstract": "Temporal networks are increasingly being used to model the interactions of complex systems. Most studies require the temporal aggregation of edges (or events) into discrete time steps to perform analysis. In this article we describe a static, lossless, and unique representation of a temporal network, the temporal event graph (TEG). The TEG describes the temporal network in terms of both the inter-event time and two-event temporal motif distributions. By considering these distributions in unison we provide a new method to characterise the behaviour of individuals and collectives in temporal networks as well as providing a natural decomposition of the network. We illustrate the utility of the TEG by providing examples on both synthetic and real temporal networks.",
+                "arxiv": "https://arxiv.org/abs/1706.02128",
+                "authors": "A. Mellor",
+                "date": "2017",
+                "journal": "Journal of Complex Networks",
+                "link": "https://academic.oup.com/comnet/article-abstract/6/4/639/4360827",
                 "title": "The Temporal Event Graph"
-            }, 
+            },
             {
-                "abstract": "We study the dynamics of the out-of-equilibrium nonlinear q-voter model with two types of susceptible voters and zealots, introduced in [EPL 113, 48001 (2016)]. In this model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. This model violates detailed balance whenever q1\u2260q2 and is characterized by two distinct regimes of low and high density of zealotry. Here, by combining analytical and numerical methods, we investigate the non-equilibrium stationary state of the system in terms of its probability distribution, non-vanishing currents and unequal-time two-point correlation functions. We also study the switching times properties of the model by exploiting an approximate mapping onto the model of [Phys. Rev. E 92, 012803 (2015)] that satisfies the detailed balance, and also outline some properties of the model near criticality.", 
-                "arxiv": "https://arxiv.org/abs/1610.06092", 
-                "authors": "A. Mellor, M. Mobilia, R.K.P. Zia", 
-                "date": "2017", 
-                "journal": "Physical Review E", 
-                "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.012104", 
+                "abstract": "We study the dynamics of the out-of-equilibrium nonlinear q-voter model with two types of susceptible voters and zealots, introduced in [EPL 113, 48001 (2016)]. In this model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. This model violates detailed balance whenever q1\u2260q2 and is characterized by two distinct regimes of low and high density of zealotry. Here, by combining analytical and numerical methods, we investigate the non-equilibrium stationary state of the system in terms of its probability distribution, non-vanishing currents and unequal-time two-point correlation functions. We also study the switching times properties of the model by exploiting an approximate mapping onto the model of [Phys. Rev. E 92, 012803 (2015)] that satisfies the detailed balance, and also outline some properties of the model near criticality.",
+                "arxiv": "https://arxiv.org/abs/1610.06092",
+                "authors": "A. Mellor, M. Mobilia, R.K.P. Zia",
+                "date": "2017",
+                "journal": "Physical Review E",
+                "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.95.012104",
                 "title": "Heterogeneous Out-of-Equilibrium Nonlinear q-Voter Model with Zealotry"
-            }, 
+            },
             {
-                "abstract": "We introduce an heterogeneous nonlinear q-voter model with two types of susceptible voters and zealots, and study its non-equilibrium properties when the population is finite and well mixed. In this two-opinion model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. We show that this model violates the detailed balance whenever q1\u2260q2 and has surprisingly rich properties. Here, we focus on the characterization of the model\u2019s non-equilibrium stationary state (NESS) in terms of its probability distribution and currents in the distinct regimes of low and high density of zealotry. We unveil the NESS properties in each of these phases by computing the opinion distribution and the circulation of probability currents, as well as the two-point correlation functions at unequal times (formally related to a \u201cprobability angular momentum\u201d). Our analytical calculations obtained in the realm of a linear Gaussian approximation are compared with numerical results.", 
-                "arxiv": "http://arxiv.org/abs/1601.03766", 
-                "authors": "A. Mellor, M. Mobilia, R.K.P. Zia", 
-                "date": "2016", 
-                "journal": "EPL (Europhysics Letters)", 
-                "link": "http://dx.doi.org/10.1209/0295-5075/113/48001", 
+                "abstract": "We introduce an heterogeneous nonlinear q-voter model with two types of susceptible voters and zealots, and study its non-equilibrium properties when the population is finite and well mixed. In this two-opinion model, each individual supports one of two parties and is either a susceptible voter of type q1 or q2, or is an inflexible zealot. At each time step, a qi-susceptible voter (i=1,2) consults a group of qi neighbors and adopts their opinion if all group members agree, while zealots are inflexible and never change their opinion. We show that this model violates the detailed balance whenever q1\u2260q2 and has surprisingly rich properties. Here, we focus on the characterization of the model\u2019s non-equilibrium stationary state (NESS) in terms of its probability distribution and currents in the distinct regimes of low and high density of zealotry. We unveil the NESS properties in each of these phases by computing the opinion distribution and the circulation of probability currents, as well as the two-point correlation functions at unequal times (formally related to a \u201cprobability angular momentum\u201d). Our analytical calculations obtained in the realm of a linear Gaussian approximation are compared with numerical results.",
+                "arxiv": "http://arxiv.org/abs/1601.03766",
+                "authors": "A. Mellor, M. Mobilia, R.K.P. Zia",
+                "date": "2016",
+                "journal": "EPL (Europhysics Letters)",
+                "link": "http://dx.doi.org/10.1209/0295-5075/113/48001",
                 "title": "Characterization of the Nonequilibrium Steady State of a Heterogeneous Nonlinear q-Voter Model with Zealotry"
-            }, 
+            },
             {
-                "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.", 
-                "arxiv": "http://arxiv.org/abs/1505.02020", 
-                "authors": "A. Mellor, M. Mobilia, S. Redner, A. M. Rucklidge, J. A. Ward", 
-                "date": "2015", 
-                "journal": "Physical Review E", 
-                "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012806", 
+                "abstract": "We generalize the classical Bass model of innovation diffusion to include a new class of agents --- Luddites --- that oppose the spread of innovation. Our model also incorporates ignorants, susceptibles, and adopters. When an ignorant and a susceptible meet, the former is converted to a susceptible at a given rate, while a susceptible spontaneously adopts the innovation at a constant rate. In response to the rate of adoption, an ignorant may become a Luddite and permanently reject the innovation. Instead of reaching complete adoption, the final state generally consists of a population of Luddites, ignorants, and adopters. The evolution of this system is investigated analytically and by stochastic simulations. We determine the stationary distribution of adopters, the time needed to reach the final state, and the influence of the network topology on the innovation spread. Our model exhibits an important dichotomy: when the rate of adoption is low, an innovation spreads slowly but widely; in contrast, when the adoption rate is high, the innovation spreads rapidly but the extent of the adoption is severely limited by Luddites.",
+                "arxiv": "http://arxiv.org/abs/1505.02020",
+                "authors": "A. Mellor, M. Mobilia, S. Redner, A. M. Rucklidge, J. A. Ward",
+                "date": "2015",
+                "journal": "Physical Review E",
+                "link": "http://journals.aps.org/pre/abstract/10.1103/PhysRevE.92.012806",
                 "title": "Influence of Luddism on Innovation Diffusion"
             }
-        ], 
+        ],
         "preprint": [
             {
-                "abstract": "Recent advances in data collection and storage have allowed both researchers and industry alike to collect data in real time. Much of this data comes in the form of 'events', or timestamped interactions, such as email and social media posts, website clickstreams, or protein-protein interactions. This of type data poses new challenges for modelling, especially if we wish to preserve all temporal features and structure. We propose a generalised framework to explore temporal networks using second-order time-unfolded models, called event graphs. Through examples we demonstrate how event graphs can be used to understand the higher-order topological-temporal structure of temporal networks and capture properties of the network that are unobserved when considering either a static (or time-aggregated) model. Furthermore, we show that by modelling a temporal network as an event graph our analysis extends easily to consider non-dyadic interactions, known as hyper-events.", 
-                "arxiv": "https://arxiv.org/abs/1809.03457", 
-                "authors": "A. Mellor", 
-                "date": "2018", 
+                "abstract": "Recent advances in data collection and storage have allowed both researchers and industry alike to collect data in real time. Much of this data comes in the form of 'events', or timestamped interactions, such as email and social media posts, website clickstreams, or protein-protein interactions. This of type data poses new challenges for modelling, especially if we wish to preserve all temporal features and structure. We propose a generalised framework to explore temporal networks using second-order time-unfolded models, called event graphs. Through examples we demonstrate how event graphs can be used to understand the higher-order topological-temporal structure of temporal networks and capture properties of the network that are unobserved when considering either a static (or time-aggregated) model. Furthermore, we show that by modelling a temporal network as an event graph our analysis extends easily to consider non-dyadic interactions, known as hyper-events.",
+                "arxiv": "https://arxiv.org/abs/1809.03457",
+                "authors": "A. Mellor",
+                "date": "2018",
                 "title": "Event Graphs: Advances and Applications of Second-Order Time-Unfolded Temporal Network Models"
-            }, 
+            },
             {
-                "abstract": "Many studies of digital communication, in particular of Twitter, use natural language processing (NLP) to find topics, assess sentiment, and describe user behaviour. In finding topics often the relationships between users who participate in the topic are neglected. We propose a novel method of describing and classifying online conversations using only the structure of the underlying temporal network and not the content of individual messages. This method utilises all available information in the temporal network (no aggregation), combining both topological and temporal structure using temporal motifs and inter-event times. This allows us create an embedding of the temporal network in order to describe the behaviour of individuals and collectives over time and examine the structure of conversation over multiple timescales.", 
-                "arxiv": "https://arxiv.org/abs/1801.10527", 
-                "authors": "A. Mellor", 
-                "date": "2018", 
+                "abstract": "Many studies of digital communication, in particular of Twitter, use natural language processing (NLP) to find topics, assess sentiment, and describe user behaviour. In finding topics often the relationships between users who participate in the topic are neglected. We propose a novel method of describing and classifying online conversations using only the structure of the underlying temporal network and not the content of individual messages. This method utilises all available information in the temporal network (no aggregation), combining both topological and temporal structure using temporal motifs and inter-event times. This allows us create an embedding of the temporal network in order to describe the behaviour of individuals and collectives over time and examine the structure of conversation over multiple timescales.",
+                "arxiv": "https://arxiv.org/abs/1801.10527",
+                "authors": "A. Mellor",
+                "date": "2018",
                 "title": "Analysing Collective Behaviour in Temporal Networks Using Event Graphs and Temporal Motifs"
             }
         ]
-    }, 
+    },
     "reviewing": [
         {
-            "name": "European Physics Letters", 
+            "name": "European Physics Letters",
             "short_name": "EPL"
-        }, 
+        },
         {
-            "name": "Journal of Statistical Mechanics", 
+            "name": "Journal of Statistical Mechanics",
             "short_name": "JSTAT"
-        }, 
+        },
         {
-            "name": "New Journal of Physics", 
+            "name": "New Journal of Physics",
             "short_name": "NJP"
-        }, 
+        },
         {
-            "name": "European Physical Journal B", 
+            "name": "European Physical Journal B",
             "short_name": "EPJ B"
-        }, 
+        },
         {
-            "name": "Physical Review E", 
+            "name": "Physical Review E",
             "short_name": "PRE"
-        }, 
+        },
         {
-            "name": "Dynamics On and Of Complex Networks", 
+            "name": "Dynamics On and Of Complex Networks",
             "short_name": "DOOCN"
-        }, 
+        },
         {
-            "name": "NetSciX", 
+            "name": "NetSciX",
             "short_name": "NetSciX"
         }
-    ], 
+    ],
     "teaching": [
         {
-            "date": 2018, 
-            "institution": "University of Oxford", 
-            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Mini-project", 
-            "student": "Victor (Sheng) Wang", 
-            "title": "Predicting User Cancellation (WhizzMaths)"
-        }, 
+            "date": "October 2018",
+            "institution": "University of Oxford",
+            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Dphil",
+            "student": "Ambrose Yim",
+            "title": "Modelling Scientific growth using Topological Data Analysis (Elsevier)"
+        },
         {
-            "date": 2018, 
-            "institution": "University of Oxford", 
-            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Mini-project", 
-            "student": "Ambrose Yim", 
+            "date": "July 2018",
+            "institution": "University of Oxford",
+            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Mini-project",
+            "student": "Ambrose Yim",
+            "title": "A Topological Analysis of Booking Networks (Emirates)"
+        },
+        {
+            "date": "April 2018",
+            "institution": "University of Oxford",
+            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Mini-project",
+            "student": "Ambrose Yim",
             "title": "Objective-Oriented Organisation Management (BT)"
-        }, 
+        },
         {
-            "date": 2018, 
-            "institution": "University of Oxford", 
-            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Mini-project", 
-            "student": "Lingyi Yang", 
-            "title": "Customer Lifetime Value Models  (Emirates)"
-        }, 
-        {
-            "date": 2017, 
-            "institution": "University of Oxford", 
-            "project_award": "MSc in Mathematical Modelling and Scientific Computing", 
-            "student": "Zetian Gao", 
-            "title": "Spatiotemporal Analysis of Air-Travel Networks"
-        }, 
-        {
-            "date": 2018, 
-            "institution": "University of Oxford", 
-            "project_award": "MSc in Mathematical Modelling and Scientific Computing", 
-            "student": "Mengfan Zhang", 
+            "date": "May 2018",
+            "institution": "University of Oxford",
+            "project_award": "MSc in Mathematical Modelling and Scientific Computing",
+            "student": "Mengfan Zhang",
             "title": "The Rise of Digital-born Media Outlets for Twitter News Dissemination"
-        }, 
+        },
         {
-            "date": 2018, 
-            "institution": "University of Oxford", 
-            "project_award": "MSc in Mathematical Modelling and Scientific Computing", 
-            "student": "Angelica Grusovin", 
-            "title": "Temporal Booking Patterns of the Social Costumer"
-        }, 
+            "date": "May 2018",
+            "institution": "University of Oxford",
+            "project_award": "MSc in Mathematical Modelling and Scientific Computing",
+            "student": "Angelica Grusovin",
+            "title": "Temporal Booking Patterns of the Social Costumer (Emirates"
+        },
         {
-            "date": 2018, 
-            "institution": "University of Oxford", 
-            "project_award": "Part B Extended Essay", 
-            "student": "Magdalena Georgieva", 
+            "date": "April 2018",
+            "institution": "University of Oxford",
+            "project_award": "Industrially Focused Mathematics (InFoMM) CDT Mini-project",
+            "student": "Victor (Sheng) Wang",
+            "title": "Predicting User Cancellation (WhizzMaths)"
+        },
+        {
+            "date": "October 2017",
+            "institution": "University of Oxford",
+            "project_award": "Part B Extended Essay",
+            "student": "Magdalena Georgieva",
             "title": "Modelling the Spread and Optimising the Prevention of Biological Contagion Through Networks"
+        },
+        {
+            "date": "July 2017",
+            "institution": "University of Oxford",
+            "project_award": "MSc in Mathematical Modelling and Scientific Computing",
+            "student": "Zetian Gao",
+            "title": "Spatio-temporal Analysis of Air-Travel Networks (Emirates)"
         }
     ]
 }

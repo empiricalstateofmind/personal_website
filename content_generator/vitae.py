@@ -16,17 +16,15 @@ def create_publications(filepath):
     publication_store = defaultdict(list)
     for ix, pub in publications.iterrows():
 
-        date = re.sub(r"([0123]?[0-9])(st|th|nd|rd)",r"\1", pub.date)
-        date = datetime.strptime(date, '%d %B %Y')
-        date = date.strftime('%Y')
+        date = pub.publication_date.strftime('%Y')
 
         entry = {'title': pub.title,
                 'authors': pub.authors,
-                'arxiv': pub.arxiv,
+                'arxiv': pub.arxiv_link,
                 'abstract':pub.abstract,
                 'date': date}
-        if pub.link != '':
-            entry['link'] = pub.link
+        if pub.journal_link != '':
+            entry['link'] = pub.journal_link
         if pub.journal != '':
             entry['journal'] = pub.journal
 
@@ -54,16 +52,14 @@ def create_conferences(filepath):
                 
                 if conf.include=='no': continue
 
-                date = re.sub(r"([0123]?[0-9])(st|th|nd|rd)",r"\1", conf.date)
-                date = datetime.strptime(date, '%d %B %Y')
-                date = date.strftime('%b. %Y')
+                date = conf.timestamp.strftime('%b. %Y')
 
                 if key in ['attended', 'school']:
                     contribution = 'Attendee'
                 else:
-                    contribution = "{} {}".format(conf.type.capitalize(), conf.style.capitalize()) 
+                    contribution = "{} {}".format(conf.type.capitalize(), conf.medium.capitalize()) 
 
-                entry = {'title':conf.conference,
+                entry = {'title':conf.title,
                         'location':conf.location,
                         'date':date,
                         'contribution': contribution,
@@ -87,14 +83,14 @@ def create_teaching(filepath):
 
     teaching_store = []
 
-    for ix, teach in teaching.sort_values(by='subtype').iterrows():
+    for ix, teach in teaching.sort_values(by='type').iterrows():
         if teach['type'] == 'supervision':
             entry = {
-                'date': teach.short_date,
-                'project_award': teach.project_award,
+                'date': teach.date,
+                'project_award': teach.program,
                 'title': teach.title,
                 'student': teach.student_name,
-                'institution': teach.institution
+                'institution': teach.location
             }
 
             teaching_store.append(entry)
@@ -117,7 +113,7 @@ def create_reviewing(filepath):
 
 if __name__ == "__main__":
 
-    FILEPATH = "D:/Dropbox/Academics/CV/vitae.xlsx" # We can pass this as an argument later
+    FILEPATH = "D:/Dropbox/projects/personal_cv/vitae.xlsx" # We can pass this as an argument later
     vitae = {'publications':create_publications(FILEPATH),
              'conferences':create_conferences(FILEPATH),
              'teaching':create_teaching(FILEPATH),
