@@ -10,7 +10,7 @@ import json
 
 def create_publications(filepath):
 
-    publications = pd.read_excel(filepath, sheetname='publications', endcoding='utf-8')
+    publications = pd.read_excel(filepath, sheet_name='publications', endcoding='utf-8')
     publications = publications.fillna('')
 
     publication_store = defaultdict(list)
@@ -34,7 +34,7 @@ def create_publications(filepath):
 
 def create_conferences(filepath):
 
-    conferences = pd.read_excel(filepath, sheetname='conferences', endcoding='utf-8')
+    conferences = pd.read_excel(filepath, sheet_name='conferences', endcoding='utf-8')
     conferences = conferences.fillna('')
     
     categories = [('invited', 'Invited Talks \& Posters'),
@@ -78,7 +78,7 @@ def create_conferences(filepath):
 
 def create_teaching(filepath):
 
-    teaching = pd.read_excel(filepath, sheetname='teaching', endcoding='utf-8')
+    teaching = pd.read_excel(filepath, sheet_name='teaching', endcoding='utf-8')
     teaching = teaching.fillna('')
 
     teaching_store = []
@@ -99,7 +99,7 @@ def create_teaching(filepath):
 
 def create_reviewing(filepath):
 
-    reviewing = pd.read_excel(filepath, sheetname='journals', endcoding='utf-8')
+    reviewing = pd.read_excel(filepath, sheet_name='journals', endcoding='utf-8')
     reviewing = reviewing.fillna('')
 
     review_store = []
@@ -113,7 +113,9 @@ def create_reviewing(filepath):
 
 if __name__ == "__main__":
 
-    FILEPATH = "D:/Dropbox/projects/personal_cv/vitae.xlsx" # We can pass this as an argument later
+    # FILEPATH = "D:/Dropbox/projects/personal_cv/vitae.xlsx" # We can pass this as an argument later
+    FILEPATH = "../../../Projects/personal_cv/vitae.xlsx"
+
     vitae = {'publications':create_publications(FILEPATH),
              'conferences':create_conferences(FILEPATH),
              'teaching':create_teaching(FILEPATH),
