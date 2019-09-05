@@ -36,7 +36,12 @@ def research():
     
     topics = data['topics']
 
-    return render_template('/home/research.html', topics=topics)   
+    return render_template('/home/research.html', topics=topics)
+
+@mod_home.route('data/')
+def data():
+
+    return render_template('/home/data.html', topics=topics)      
 
 @mod_home.route('projects/<project_slug>.html')
 def projects(project_slug):

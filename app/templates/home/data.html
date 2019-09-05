@@ -1,0 +1,51 @@
+{% extends "basic.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Andrew Mellor - Research{% endblock %}
+
+{% block head %}
+{{super()}}
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<div class="page-header">
+  <h1>Data <small>Data Sets and Other Resources</small></h1>
+</div>
+
+<div class="row">
+
+<h2><span style="font-weight: bolder;">Annotated Hypergraphs</span></h2>
+
+The following data sets arerepresented as annotated hypergraphs.
+
+  <ul style="margin-bottom: 1rem;">
+    <li>ENRON Emails (ah-enron)</li>
+    <li>Stack Overflow (ah-overflow-stack)</li>
+    <li>Math Overflow (ah-overflow-math)</li>
+    <li>MovieLens (ah-movielens)</li>
+    <li>Scopus Multilayer Literature (ah-scopus-multilayer)</li>
+    <li>Twitter Keyword Search (ah-twitter)</li>
+  </ul>
+
+</div>
+
+{% block footer %}
+{{super()}}
+{% endblock %}
+
+{% endblock %}
