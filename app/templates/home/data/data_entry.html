@@ -1,0 +1,73 @@
+{% extends "basic.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Andrew Mellor - Data{% endblock %}
+
+{% block head %}
+{{super()}}
+{% endblock %}
+
+{% block scripts %}
+{{super()}}
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+{% endblock %}
+
+{% block navbar %}
+{{super()}}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+
+    <h2><span style="font-weight: bolder;"> {{ data.name }} ({{ data.short_name }})</span></h2>
+    
+    {% if data.desc is defined %}<p>{{data.desc|safe}}</p>{% endif %}
+    
+<table class="table">
+  <thead>
+    <tr style="text-align: right;">
+    </tr>
+  </thead>
+  <tbody>
+    <th>Num. Edges </th>
+    <td>{{ data.edges }}</td>
+    </tr>
+    <tr>
+      <th>Num. Nodes</th>
+      <td>{{ data.nodes }}</td>
+    </tr>
+    <tr>
+      <th>Num. Edge Stubs</th>
+      <td>{{ data.edge_stubs }}</td>
+    </tr>
+    <tr>
+    <tr>
+      <th>Roles</th>
+      <td>{% for d in data.roles %}<span class="badge badge-dark">{{d}}</span>{% endfor %}</td>
+    </tr>
+    <tr>
+      <th>Node Avg. Degree</th>
+      <td>{{ data.node_avg_degree }}</td>
+    </tr>
+    <tr>
+      <th>Edge Avg. Degree</th>
+      <td>{{ data.edge_avg_degree }}</td>
+    </tr>
+    <tr>
+      <th>Metadata</th>
+      <td>{% for d in data.metadata %}<span class="badge badge-dark">{{d}}</span>{% endfor %}</td>
+    </tr>
+  </tbody>
+</table>
+    <p><a class="btn btn-primary" href="{{ data.src_link }}" role="button">Link</a><a class="btn btn-secondary" href="{{ url_for('home.data') }}" role="button">Back</a></p>
+
+{% block footer %}
+{{super()}}
+{% endblock %}
+
+{% endblock %}

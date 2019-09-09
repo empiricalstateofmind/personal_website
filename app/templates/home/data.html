@@ -1,7 +1,7 @@
 {% extends "basic.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
 
-{% block title %}Andrew Mellor - Research{% endblock %}
+{% block title %}Andrew Mellor - Data{% endblock %}
 
 {% block head %}
 {{super()}}
@@ -27,22 +27,32 @@
   <h1>Data <small>Data Sets and Other Resources</small></h1>
 </div>
 
-<div class="row">
+  {% for data in datasets %}
+  
+  <div class="well well-sm">
 
-<h2><span style="font-weight: bolder;">Annotated Hypergraphs</span></h2>
+    <h2><span style="font-weight: bolder;">> {{ data.name }} ({{ data.short_name }})</span></h2>
+    
+    <p>{{data.desc}}</p>
+    
+    <ul style="margin-bottom: 1rem;">
+      {% for entry in data.data %}
+      <li><a href="./{{ entry.link }}">{{entry.name}} ({{ entry.short_name }})</a></li>
+      {% endfor %}
+    </ul>
 
-The following data sets arerepresented as annotated hypergraphs.
-
-  <ul style="margin-bottom: 1rem;">
-    <li>ENRON Emails (ah-enron)</li>
-    <li>Stack Overflow (ah-overflow-stack)</li>
-    <li>Math Overflow (ah-overflow-math)</li>
-    <li>MovieLens (ah-movielens)</li>
-    <li>Scopus Multilayer Literature (ah-scopus-multilayer)</li>
-    <li>Twitter Keyword Search (ah-twitter)</li>
-  </ul>
-
-</div>
+    {% if data.citations|length > 0 %}
+    <p>If you use this data, please cite the following paper/s:</p>
+    <ol style="margin-bottom: 1rem;">
+      {% for cite in data.citations %}
+      <li>{{ cite|safe }}</li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+  
+  </div>
+  
+  {% endfor %}
 
 {% block footer %}
 {{super()}}

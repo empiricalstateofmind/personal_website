@@ -38,11 +38,27 @@ def research():
 
     return render_template('/home/research.html', topics=topics)
 
-@mod_home.route('data/')
-def data():
+@mod_home.route('data/', defaults={'data_slug': None})
+@mod_home.route('data/<data_slug>')
+def data(data_slug):
 
-    return render_template('/home/data.html', topics=topics)      
+    with mod_home.open_resource('static/data.json') as w:
+        data = json.load(w)
 
+    if data_slug is not None:
+
+        dataset_short, data_short = data_slug.split('-')[0], data_slug.split('-')[1:]
+        data_short = '-'.join(data_short)
+
+        dataset = [x for x in data if x['short_name']==dataset_short][0]
+        data = [x for x in dataset['data'] if x['short_name']==data_short][0]
+
+        return render_template('/home/data/data_entry.html', data=data) 
+
+    else:
+        return render_template('/home/data.html', datasets=data)      
+
+@mod_home.route('projects/', defaults={'project_slug': None})
 @mod_home.route('projects/<project_slug>.html')
 def projects(project_slug):
     if project_slug is None:

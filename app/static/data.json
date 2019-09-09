@@ -1,0 +1,132 @@
+[
+    {
+        "citations": [
+            "ANNOTATED  HYPERGRAPHS:  NULL  MODELS  AND  APPLICATIONS, Chodrow P. & Mellor A. (2019)"
+        ],
+        "data": [
+            {
+                "desc": "This consists of the core Enron emails from the archived <a href=\"https://www.cs.cmu.edu/~enron/\">Enron email database</a> from William W. Cohen. Core email addresses are those with a valid Enron address. All other emails have been omitted. Here the node roles are <i>from</i>, <i>to</i>, and <i>cc</i> which capture the various fields in a typical email header (in this case BCC has been merged with CC). Note that a node may appear in an edge twice under multiple roles, for example sending a message to oneself.",
+                "edge_avg_degree": 2.46,
+                "edge_stubs": 25847,
+                "edges": 10504,
+                "link": "ah-enron",
+                "metadata": [
+                    "date"
+                ],
+                "name": "Enron Emails",
+                "node_avg_degree": 230.77,
+                "nodes": 112,
+                "roles": [
+                    "from",
+                    "to",
+                    "cc"
+                ],
+                "short_name": "enron",
+                "src_link": "https://drive.google.com/open?id=1If5ogZnIZTiy3il8YZYRitGtUtpPb3xE"
+            },
+            {
+                "edge_avg_degree": 5.99,
+                "edge_stubs": 28250,
+                "edges": 4716,
+                "link": "ah-overflow-stack",
+                "metadata": [
+                    "timestamp"
+                ],
+                "name": "Stack Overflow Threads",
+                "node_avg_degree": 1.27,
+                "nodes": 22131,
+                "roles": [
+                    "setter",
+                    "answers",
+                    "accepted"
+                ],
+                "short_name": "overflow-stack",
+                "src_link": "https://drive.google.com/open?id=1qr2sfZkwJuYufYqDHoE_II49XoR9i75V"
+            },
+            {
+                "edge_avg_degree": 4.6,
+                "edge_stubs": 709,
+                "edges": 154,
+                "link": "ah-overflow-math",
+                "metadata": [
+                    "timestamp"
+                ],
+                "name": "Math Overflow Threads",
+                "node_avg_degree": 1.73,
+                "nodes": 410,
+                "roles": [
+                    "setter",
+                    "answers",
+                    "accepted"
+                ],
+                "short_name": "overflow-math",
+                "src_link": "https://drive.google.com/open?id=1RFBA50lhAAvvMfcWvp7NwszKjFCKcfG5"
+            },
+            {
+                "edge_avg_degree": 2.46,
+                "edge_stubs": 25847,
+                "edges": 10504,
+                "link": "ah-movielens",
+                "metadata": [
+                    "date"
+                ],
+                "name": "MovieLens Credits",
+                "node_avg_degree": 230.77,
+                "nodes": 112,
+                "roles": [
+                    "from",
+                    "to",
+                    "cc"
+                ],
+                "short_name": "movielens",
+                "src_link": "https://drive.google.com/open?id=1JXaUSD2-ZBLAX2ukggtD_6fY1sjSzw4k"
+            },
+            {
+                "edge_avg_degree": 3.85,
+                "edge_stubs": 3615,
+                "edges": 938,
+                "link": "ah-scopus-multilayer",
+                "metadata": [
+                    "citations",
+                    "dtype",
+                    "source",
+                    "year"
+                ],
+                "name": "Scopus Multilayer Literature",
+                "node_avg_degree": 2.1,
+                "nodes": 1722,
+                "roles": [
+                    "first",
+                    "middle",
+                    "last"
+                ],
+                "short_name": "scopus-multilayer",
+                "src_link": "https://drive.google.com/open?id=1p6_oH6Q01OhMY0RSx-xNtawbPuRzXPBz"
+            },
+            {
+                "edge_avg_degree": 2.16,
+                "edge_stubs": 265815,
+                "edges": 123158,
+                "link": "ah-twitter",
+                "metadata": [
+                    "time",
+                    "type"
+                ],
+                "name": "Twitter Keyword Search",
+                "node_avg_degree": 5.08,
+                "nodes": 52294,
+                "roles": [
+                    "source",
+                    "target",
+                    "retweeter",
+                    "retweeted"
+                ],
+                "short_name": "twitter",
+                "src_link": "https://drive.google.com/open?id=1EFmOSgoiExM9sjIVThEKq2lzwMg1AoUj"
+            }
+        ],
+        "desc": "Annotated hypergraphs capturing nodes with different roles in higher-order interactions.",
+        "name": "Annnotated Hypergraphs",
+        "short_name": "ah"
+    }
+]
