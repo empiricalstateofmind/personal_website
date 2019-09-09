@@ -39,7 +39,7 @@ def research():
     return render_template('/home/research.html', topics=topics)
 
 @mod_home.route('data/', defaults={'data_slug': None})
-@mod_home.route('data/<data_slug>')
+@mod_home.route('data/<data_slug>.html')
 def data(data_slug):
 
     with mod_home.open_resource('static/data.json') as w:
