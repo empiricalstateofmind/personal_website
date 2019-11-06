@@ -259,6 +259,24 @@
     "publications": {
         "article": [
             {
+                "abstract": "The comparison of graphs is a vitally important, yet difficult task which arises across a number of diverse research areas including biological and social networks. There have been a number of approaches to define graph distance however often these are not metrics (rendering standard data-mining techniques infeasible), or are computationally infeasible for large graphs. In this work we define a new metric based on the spectrum of the non-backtracking graph operator and show that it can not only be used to compare graphs generated through different mechanisms, but can reliably compare graphs of varying size. We observe that the family of Watts-Strogatz graphs lie on a manifold in the non-backtracking spectral embedding and show how this metric can be used in a standard classification problem of empirical graphs.",
+                "arxiv": "https://arxiv.org/abs/1812.05457",
+                "authors": "A. Mellor, A. Grusovin",
+                "date": "2019",
+                "journal": "Physical Review E",
+                "link": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.052309",
+                "title": "Graph Comparison via the Non-backtracking Spectrum"
+            },
+            {
+                "abstract": "Recent advances in data collection and storage have allowed both researchers and industry alike to collect data in real time. Much of this data comes in the form of 'events', or timestamped interactions, such as email and social media posts, website clickstreams, or protein-protein interactions. This of type data poses new challenges for modelling, especially if we wish to preserve all temporal features and structure. We propose a generalised framework to explore temporal networks using second-order time-unfolded models, called event graphs. Through examples we demonstrate how event graphs can be used to understand the higher-order topological-temporal structure of temporal networks and capture properties of the network that are unobserved when considering either a static (or time-aggregated) model. Furthermore, we show that by modelling a temporal network as an event graph our analysis extends easily to consider non-dyadic interactions, known as hyper-events.",
+                "arxiv": "https://arxiv.org/abs/1809.03457",
+                "authors": "A. Mellor",
+                "date": "2019",
+                "journal": "Advances in Complex Systems",
+                "link": "http://dx.doi.org/10.1142/S0219525919500061",
+                "title": "Event Graphs: Advances and Applications of Second-Order Time-Unfolded Temporal Network Models"
+            },
+            {
                 "abstract": "Temporal networks are increasingly being used to model the interactions of complex systems. Most studies require the temporal aggregation of edges (or events) into discrete time steps to perform analysis. In this article we describe a static, lossless, and unique representation of a temporal network, the temporal event graph (TEG). The TEG describes the temporal network in terms of both the inter-event time and two-event temporal motif distributions. By considering these distributions in unison we provide a new method to characterise the behaviour of individuals and collectives in temporal networks as well as providing a natural decomposition of the network. We illustrate the utility of the TEG by providing examples on both synthetic and real temporal networks.",
                 "arxiv": "https://arxiv.org/abs/1706.02128",
                 "authors": "A. Mellor",
@@ -297,18 +315,18 @@
         ],
         "preprint": [
             {
-                "abstract": "The comparison of graphs is a vitally important, yet difficult task which arises across a number of diverse research areas including biological and social networks. There have been a number of approaches to define graph distance however often these are not metrics (rendering standard data-mining techniques infeasible), or are computationally infeasible for large graphs. In this work we define a new metric based on the spectrum of the non-backtracking graph operator and show that it can not only be used to compare graphs generated through different mechanisms, but can reliably compare graphs of varying size. We observe that the family of Watts-Strogatz graphs lie on a manifold in the non-backtracking spectral embedding and show how this metric can be used in a standard classification problem of empirical graphs.",
-                "arxiv": "https://arxiv.org/abs/1812.05457",
-                "authors": "A. Mellor, A. Grusovin",
-                "date": "2018",
-                "title": "Graph Comparison via the Non-backtracking Spectrum"
+                "abstract": "Multi-body interactions can reveal higher-order dynamical effects that are not captured by traditional two-body network models. In this work, we derive and analyse models for consensus dynamics on hypergraphs, where nodes interact in groups rather than in pairs. Our work reveals that multi-body dynamical effects that go beyond rescaled pairwise interactions can only appear if the interaction function is non-linear, regardless of the underlying multi-body structure. As a practical application, we introduce a specific non-linear function to model three-body consensus, which incorporates reinforcing group effects such as peer pressure. Unlike consensus processes on networks, we find that the resulting dynamics can cause shifts away from the average system state. The nature of these shifts depends on a complex interplay between the distribution of the initial states, the underlying structure and the form of the interaction function. By considering modular hypergraphs, we discover state-dependent, asymmetric dynamics between polarised clusters where multi-body interactions make one cluster dominate the other.",
+                "arxiv": "https://arxiv.org/abs/1910.09226",
+                "authors": "L. Neuh\u00e4user,\u00a0A. Mellor,\u00a0R. Lambiotte",
+                "date": "2019",
+                "title": "Multi-body Interactions and Non-Linear Consensus Dynamics on Networked Systems"
             },
             {
-                "abstract": "Recent advances in data collection and storage have allowed both researchers and industry alike to collect data in real time. Much of this data comes in the form of 'events', or timestamped interactions, such as email and social media posts, website clickstreams, or protein-protein interactions. This of type data poses new challenges for modelling, especially if we wish to preserve all temporal features and structure. We propose a generalised framework to explore temporal networks using second-order time-unfolded models, called event graphs. Through examples we demonstrate how event graphs can be used to understand the higher-order topological-temporal structure of temporal networks and capture properties of the network that are unobserved when considering either a static (or time-aggregated) model. Furthermore, we show that by modelling a temporal network as an event graph our analysis extends easily to consider non-dyadic interactions, known as hyper-events.",
-                "arxiv": "https://arxiv.org/abs/1809.03457",
-                "authors": "A. Mellor",
-                "date": "2018",
-                "title": "Event Graphs: Advances and Applications of Second-Order Time-Unfolded Temporal Network Models"
+                "abstract": "Hypergraphs offer a natural modeling language for studying polyadic interactions between sets of entities. Many polyadic interactions are asymmetric, with nodes playing distinctive roles. In an academic collaboration network, for example, the order of authors on a paper often reflects the nature of their contributions to the completed work. To model these networks, we introduce annotated hypergraphs as natural polyadic generalizations of directed graphs. Annotated hypergraphs form a highly general framework for incorporating metadata into polyadic graph models. To facilitate data analysis with annotated hypergraphs, we construct a role-aware configuration null model for these structures and prove an efficient Markov Chain Monte Carlo scheme for sampling from it. We proceed to formulate several metrics and algorithms for the analysis of annotated hypergraphs. Several of these, such as assortativity and modularity, naturally generalize dyadic counterparts. Other metrics, such as local role densities, are unique to the setting of annotated hypergraphs. We illustrate our techniques on six digital social networks, and present a detailed case-study of the Enron email data set.",
+                "arxiv": "https://arxiv.org/abs/1911.01331",
+                "authors": "P. Chowdrow, A.Mellor",
+                "date": "2019",
+                "title": "Annotated Hypergraphs: Models and Applications"
             },
             {
                 "abstract": "Many studies of digital communication, in particular of Twitter, use natural language processing (NLP) to find topics, assess sentiment, and describe user behaviour. In finding topics often the relationships between users who participate in the topic are neglected. We propose a novel method of describing and classifying online conversations using only the structure of the underlying temporal network and not the content of individual messages. This method utilises all available information in the temporal network (no aggregation), combining both topological and temporal structure using temporal motifs and inter-event times. This allows us create an embedding of the temporal network in order to describe the behaviour of individuals and collectives over time and examine the structure of conversation over multiple timescales.",
@@ -347,9 +365,24 @@
         {
             "name": "NetSciX",
             "short_name": "NetSciX"
+        },
+        {
+            "name": "Physical Review Letters",
+            "short_name": "PRL"
+        },
+        {
+            "name": "SIAM\u00a0Journal on Matrix Analysis and Applications",
+            "short_name": "SIAMX"
         }
     ],
     "teaching": [
+        {
+            "date": "May 2018",
+            "institution": "University of Oxford",
+            "project_award": "MSc in Mathematical Modelling and Scientific Computing",
+            "student": "Leonie Neuhauser",
+            "title": "Non-Linear Interactions and Temporal Dynamics on Higher-Order Networks (distinction)"
+        },
         {
             "date": "October 2018",
             "institution": "University of Oxford",
@@ -376,14 +409,14 @@
             "institution": "University of Oxford",
             "project_award": "MSc in Mathematical Modelling and Scientific Computing",
             "student": "Mengfan Zhang",
-            "title": "The Rise of Digital-born Media Outlets for Twitter News Dissemination"
+            "title": "The Rise of Digital-born Media Outlets for Twitter News Dissemination (distinction)"
         },
         {
             "date": "May 2018",
             "institution": "University of Oxford",
             "project_award": "MSc in Mathematical Modelling and Scientific Computing",
             "student": "Angelica Grusovin",
-            "title": "Temporal Booking Patterns of the Social Costumer (Emirates"
+            "title": "Temporal Booking Patterns of the Social Costumer (Emirates)"
         },
         {
             "date": "April 2018",
