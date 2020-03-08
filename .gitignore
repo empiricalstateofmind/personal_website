@@ -1,2 +1,4 @@
 /app/build
 *.pyc
+/app/mod_home/static/*
+.vscode/*
